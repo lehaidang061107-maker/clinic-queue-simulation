@@ -1,0 +1,6 @@
+id|fullName|age|priority|specialtyId|ticketNumber|arrivalTime|serviceDuration
+BN01|Nguyen Van An|30|2|1|1|0|5
+BN02|Tran Van Binh|35|2|1|2|1|5
+BN03|Le Thi Chi|70|1|1|3|2|5
+BN05|Pham Minh Duy|4|1|1|4|2|5
+BN04|Hoang Van Hai|40|0|1|5|3|5

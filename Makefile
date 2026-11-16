@@ -5,7 +5,7 @@ LEADER = src/Patient.cpp src/SimulationConfig.cpp src/Simulation.cpp
 DEPENDENCIES = src/PatientStore.cpp src/LinkedQueue.cpp src/PriorityHeap.cpp src/ClinicRoom.cpp src/Statistics.cpp
 HEADERS = $(wildcard include/*.h)
 
-.PHONY: all test-leader test-leader-isolated check-leader
+.PHONY: all test-c test-leader test-leader-isolated check-leader
 all: build/clinic_simulator
 
 build:
@@ -13,6 +13,13 @@ build:
 
 build/clinic_simulator: $(wildcard src/*.cpp) $(HEADERS) | build
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(wildcard src/*.cpp) -o $@
+
+# Isolated C tests discard the unreferenced run-results writer, which depends on B.
+test-c: build/test_c
+	./build/test_c
+
+build/test_c: tests/test_c.cpp src/PatientStore.cpp src/FileIO.cpp src/DataGenerator.cpp src/Patient.cpp src/SimulationConfig.cpp $(HEADERS) | build
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -ffunction-sections -fdata-sections tests/test_c.cpp src/PatientStore.cpp src/FileIO.cpp src/DataGenerator.cpp src/Patient.cpp src/SimulationConfig.cpp -Wl,--gc-sections -o $@
 
 # Requires the real A/B/C modules. This target never uses test doubles.
 test-leader: build/test_leader

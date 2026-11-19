@@ -26,31 +26,63 @@ Môi trường: Windows (MinGW-w64, GCC hỗ trợ C++17). Ngày chạy: 2026-11
 mkdir -p build
 g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinclude tests/test_b.cpp src/PriorityHeap.cpp src/Statistics.cpp src/PatientStore.cpp src/Patient.cpp -o build/test_b.exe
 ./build/test_b.exe
+```
+
+Trên macOS/Linux có thể chạy qua Makefile (đầu ra `build/test_b`):
+
+```bash
+make test-b
+```
 
 ## 3. Kết quả kiểm tra
 
-Môi trường: Windows, g++ (MinGW-w64, C++17). Ngày chạy: 2026-11-19.
-
-| Ca | Mong đợi | Thực tế (`./build/test_b.exe`) |
+| Ca | Mong đợi | Thực tế (`test_b`) |
 |---|---|---|
 | Heap rỗng: `isEmpty`/`peek`/`pop`; `push(nullptr)` | `nullptr`, size 0; `push(nullptr)` ném `std::invalid_argument` | Đạt |
-| Thứ tự ưu tiên & hòa khóa: `BN01` (1,1,1), `BN02` (0,5,2), `BN03` (1,1,3) | Thứ tự lấy `BN02 → BN01 → BN03` | Đạt |
-| Vượt sức chứa 16 (`grow`), `clear` và dùng lại | Tự nhân đôi lên 32 giữ đúng heap; `clear` về size 0, thêm lại vẫn đúng | Đạt |
-| Thống kê ưu tiên: mức rỗng; chờ 4 và 8 phút; bỏ ca `startTime < 0` | Mức rỗng `startedCount = 0`; tổng chờ 12, đếm 2, max 8 | Đạt |
-| Đỉnh hàng chờ, biên `byRoom(-1)`/`byRoom(roomCount)` và `reset` | Max hệ thống = 4; ngoài biên ném `std::out_of_range`; `reset` về 0 | Đạt |
-| Báo cáo `Merge Sort` (`makeSortedWaitReport`): kho rỗng; hòa thời gian chờ | Kho rỗng `count = 0`, `nullptr`; xếp `BN04 → BN02 → BN03 → BN01` | Đạt |
-| Biên dịch (`-Wall -Wextra -Wpedantic`) & `git diff --check` | 0 lỗi, 0 cảnh báo, không lỗi whitespace | Đạt, không cảnh báo |
+| Ca bắt buộc: `BN01` (1,1,1), `BN02` (0,2,2), `BN03` (1,1,3) | Thứ tự lấy `BN02 → BN01 → BN03` | Đạt |
+| Hòa mức/giờ đến: `BN01` (1,1,1), `BN02` (0,5,2), `BN03` (1,1,3) | `BN02 → BN01 → BN03` (hòa xét ticket) | Đạt |
+| Một phần tử | `peek`/`pop` trả đúng phần tử, sau đó rỗng | Đạt |
+| Vượt sức chứa 16 (`grow`), `clear` và dùng lại | 25 phần tử vẫn đúng heap; `clear` về size 0, thêm lại vẫn đúng | Đạt |
+| Thống kê ưu tiên: mức rỗng; chờ 4 và 8 phút; bỏ ca `startTime < 0` | Mức rỗng `startedCount = 0`; tổng 12, đếm 2, trung bình 6, max 8 | Đạt |
+| Hai phòng snapshot (3,0) rồi (0,4) | Max phòng 1 = 3, phòng 2 = 4, max hệ thống = 4 (không phải 7) | Đạt |
+| Biên `byRoom(-1)`/`byRoom(roomCount)`, `reset(-1)` | Ném `std::out_of_range` / `std::invalid_argument` | Đạt |
+| `reset` đổi số phòng 2 → 1 | Mọi số liệu về 0, không giữ số liệu cũ | Đạt |
+| Báo cáo `makeSortedWaitReport`: kho rỗng | `count = 0`, trả `nullptr` | Đạt |
+| Báo cáo: hòa thời gian chờ, người đang khám, người chưa khám | `BN04 (đang khám) → BN02 → BN03 → BN01`; `BN05` chưa khám không có; kho giữ 5 người | Đạt |
+| Biên dịch `-Wall -Wextra -Wpedantic` & `git diff --check` | 0 lỗi, 0 cảnh báo, không lỗi whitespace | Đạt |
 
+Môi trường đã chạy:
 
-4. Kiểm tra tích hợp với A, C và Leader
-Statistics.cpp đã liên kết và chạy kiểm thử trực tiếp cùng PatientStore (thành viên C) và Patient (Leader) qua store.head() và waitingTime().
+| Hệ điều hành | Trình biên dịch | Lệnh | Kết quả |
+|---|---|---|---|
+| Windows | g++ MinGW-w64 (C++17) | lệnh `g++` ở mục 2 | Đạt (B tự chạy, 2026-11-19) |
+| macOS 26.5 | Apple clang 16.0.0 | `make test-b`; thêm `-fsanitize=undefined` | Đạt, UBSan không báo lỗi (Leader chạy, 2026-11-19) |
 
-Sau khi merge PR vào main, Leader và thành viên A có thể liên kết ngay PriorityHeap.cpp và Statistics.cpp thật để chạy make test-leader, make test-a và FileIO::saveRunResults (thay thế các bản giả lập trước đó).
+## 4. Kiểm tra tích hợp với A, C và Leader
 
-5. Lỗi còn lại và việc chờ
-Đã khắc phục toàn bộ góp ý từ review PR #7: sửa lỗi cú pháp ở Statistics.cpp, đổi sang duyệt store.head(), thêm kiểm tra tràn dung lượng trong grow(), báo lỗi nullptr trong push(), kiểm tra giới hạn chỉ số trong byRoom() và xóa comment TODO.
+`Statistics.cpp` liên kết và chạy kiểm thử trực tiếp với `PatientStore` thật (C) và `Patient` (Leader) qua `store.head()` và `waitingTime()`.
 
-Chưa chạy make test-leader và make test-a toàn cục trên nhánh riêng của B; chờ Leader merge vào main để kiểm tra tích hợp cả 4 thành viên.
+Sau khi merge vào `develop`, Leader đã chạy trên macOS với mô-đun thật (không dùng test double):
+
+- `make` build `build/clinic_simulator`: 0 cảnh báo.
+- `make test-a`: Đạt, gồm ví dụ phòng khám 0/9/3 (bật ưu tiên) và 0/4/8 (tắt ưu tiên) dùng `PriorityHeap` thật.
+- `make test-c`, `make test-leader`: Đạt, gồm 4 cấu hình 1/2 phòng × bật/tắt ưu tiên.
+
+**Kiểm tra chéo (A chạy test B):** chờ A chạy `make test-b` và ghi kết quả vào đây.
+
+## 5. Lỗi còn lại và việc chờ
+
+Đã khắc phục góp ý review PR #7: lỗi cú pháp ở `Statistics.cpp`, duyệt kho qua `store.head()`, kiểm tra tràn dung lượng trong `grow()`, báo lỗi `nullptr` trong `push()`, kiểm tra chỉ số trong `byRoom()`, xóa comment TODO.
+
+Leader chỉnh thêm khi ghép:
+
+- Chuyển test từ `tests/support/test_b.cpp` về `tests/test_b.cpp` đúng phân công (`tests/support/` chỉ chứa test double); thêm target `make test-b`.
+- Bổ sung đúng các ca bắt buộc trong phân công: `BN02 (0,2,2)`, một phần tử, trung bình 6, snapshot (3,0)/(0,4), người đang khám có trong báo cáo.
+- Rút gọn `extractPatient` thành hàm thường vì `PatientStore::Node` chứa trực tiếp `Patient`.
+
+Quy ước lỗi: `push(nullptr)`, `reset(<0)`, `byRoom`/`byPriority` ngoài phạm vi và `grow()` tràn đều ném ngoại lệ chuẩn. `ClinicRoom` đã tự bỏ qua `nullptr` trước khi gọi heap nên luồng mô phỏng không gặp ngoại lệ này.
+
+Còn chờ: A kiểm tra chéo `test_b`.
 
 ## 6. Thời gian/bộ nhớ
 

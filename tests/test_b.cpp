@@ -57,6 +57,22 @@ void checkPriorityHeap() {
     assert(heap.pop() == &bn03);
     assert(heap.isEmpty() && heap.pop() == nullptr);
 
+    // Ca bat buoc dung so lieu phan cong: BN01 (1,1,1), BN02 (0,2,2), BN03 (1,1,3)
+    Patient c01 = makePatient("BN01", Priority::Preferential, 1, 1);
+    Patient c02 = makePatient("BN02", Priority::Emergency, 2, 2);
+    Patient c03 = makePatient("BN03", Priority::Preferential, 1, 3);
+    heap.push(&c01);
+    heap.push(&c02);
+    heap.push(&c03);
+    assert(heap.pop() == &c02);
+    assert(heap.pop() == &c01);
+    assert(heap.pop() == &c03);
+    assert(heap.isEmpty());
+
+    // Mot phan tu
+    heap.push(&c01);
+    assert(heap.size() == 1 && heap.peek() == &c01 && heap.pop() == &c01 && heap.isEmpty());
+
     // Vuot suc chua mac dinh 16 (grow) va clear roi tai su dung
     Patient pool[25];
     for (int i = 0; i < 25; ++i) {
@@ -124,12 +140,16 @@ void checkStatistics() {
     assert(pref.startedCount == 2);
     assert(pref.totalWait == 12);
     assert(pref.maxWait == 8);
+    assert(pref.totalWait / pref.startedCount == 6); // trung binh 6
     assert(stats.completedCount() == 2);
 
-    stats.observeQueues(0, 3, 4);
-    stats.observeQueues(1, 2, 3);
+    // Snapshot (3,0) roi (0,4): max he thong = 4, khong cong cuc dai rieng (7)
+    stats.observeQueues(0, 3, 3);
+    stats.observeQueues(1, 0, 3);
+    stats.observeQueues(0, 0, 4);
+    stats.observeQueues(1, 4, 4);
     assert(stats.byRoom(0).roomId == 1 && stats.byRoom(0).maxWaiting == 3);
-    assert(stats.byRoom(1).roomId == 2 && stats.byRoom(1).maxWaiting == 2);
+    assert(stats.byRoom(1).roomId == 2 && stats.byRoom(1).maxWaiting == 4);
     assert(stats.maxSystemWaiting() == 4);
 
     // Reset khong giu so lieu cu
@@ -162,6 +182,8 @@ void checkSortedWaitReport() {
     const_cast<Patient*>(store.findById("BN02"))->startTime = 9;
     const_cast<Patient*>(store.findById("BN03"))->startTime = 10;
     const_cast<Patient*>(store.findById("BN04"))->startTime = 15;
+    // BN04 dang kham (InService) van phai co trong bao cao
+    const_cast<Patient*>(store.findById("BN04"))->status = PatientStatus::InService;
 
     const Patient** report = makeSortedWaitReport(store, count);
     assert(count == 4 && report != nullptr);

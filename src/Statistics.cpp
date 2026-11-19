@@ -1,6 +1,5 @@
 #include "Statistics.h"
 #include <stdexcept>
-#include <type_traits>
 
 namespace clinic {
 
@@ -48,13 +47,9 @@ void mergeSortPatients(const Patient** arr, const Patient** temp, int left, int 
     mergePatients(arr, temp, left, mid, right);
 }
 
-template <typename NodePtr>
-const Patient* extractPatient(NodePtr node) {
-    if constexpr (std::is_pointer_v<decltype(node->patient)>) {
-        return node->patient;
-    } else {
-        return &node->patient;
-    }
+// PatientStore::Node chua truc tiep Patient (khong phai con tro).
+const Patient* extractPatient(const PatientStore::Node* node) {
+    return &node->patient;
 }
 
 } // namespace

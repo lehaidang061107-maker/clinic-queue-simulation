@@ -20,7 +20,7 @@ make test-c
 Lệnh build tương đương (thư mục `build` phải tồn tại):
 
 ```text
-g++ -Iinclude -std=c++17 -Wall -Wextra -Wpedantic -ffunction-sections -fdata-sections tests/test_c.cpp src/PatientStore.cpp src/FileIO.cpp src/DataGenerator.cpp src/Patient.cpp src/SimulationConfig.cpp -Wl,--gc-sections -o build/test_c
+g++ -Iinclude -std=c++17 -Wall -Wextra -Wpedantic -ffunction-sections -fdata-sections tests/test_c.cpp src/PatientStore.cpp src/FileIO.cpp src/DataGenerator.cpp src/Patient.cpp src/SimulationConfig.cpp -Wl,--gc-sections -o build/test_c   # macOS: thay bằng -Wl,-dead_strip
 build/test_c
 ```
 
@@ -30,23 +30,27 @@ build/test_c
 g++ -Iinclude -std=c++17 -Wall -Wextra -Wpedantic src/*.cpp -o build/clinic_simulator.exe
 ```
 
-Test tạo tệp tạm trong `build/` và xóa sau khi chạy. Các lệnh trên chưa được chạy trong môi trường bàn giao hiện tại: không tìm thấy `g++`, `clang++`, `cl` hoặc `make` trên PATH. Vì vậy kết quả dưới đây là phạm vi test đã viết, không phải xác nhận đã chạy đạt. Bằng chứng chạy trên Windows/macOS còn chờ môi trường có compiler.
+Test tạo tệp tạm trong `build/` và xóa sau khi chạy. Lần bàn giao đầu chưa chạy được vì máy không có compiler. Đã chạy lại trên macOS ngày 2026-11-19 (kết quả ở mục 3). `Makefile` đã được sửa để tự dùng `-Wl,-dead_strip` trên macOS vì linker của Apple không có `--gc-sections`.
 
 ## 3. Ca kiểm tra và kết quả
 
-| Nhóm | Ca được đưa vào `test_c.cpp` | Kết quả hiện tại |
+| Nhóm | Ca được đưa vào `test_c.cpp` | Kết quả (macOS 26.5, Apple clang 16.0.0) |
 |---|---|---|
-| PatientStore | Chèn ngược thời gian đến; hòa thời gian theo ticket; trùng ID/ticket; tra cứu; ticket 2/7 cấp 8; ticket `INT_MAX`; reset, clear và dùng lại | Đã viết; chưa chạy (thiếu compiler) |
-| FileIO | CRLF; bỏ dòng rỗng; tuổi chữ/âm/tràn số; mức ưu tiên không hợp tuổi; trùng ticket/ID; khoa sai; phút đến 480; thiếu trường; giữ dòng hợp lệ hai phía dòng lỗi; header sai; tệp thiếu; kho không rỗng; lưu-nạp lại; đường dẫn không ghi được | Đã viết; chưa chạy (thiếu compiler) |
-| DataGenerator | Hai kho cùng seed/cấu hình có nội dung lưu giống nhau; ticket liên tục sau sắp xếp; miền tuổi/khoa/arrival/thời lượng; kho không rỗng và cấu hình sai | Đã viết; chưa chạy (thiếu compiler) |
-| Tích hợp toàn ứng dụng | Build `src/*.cpp` và chạy bốn kịch bản qua UI | Chưa thể xác nhận: `LinkedQueue.cpp`, `PriorityHeap.cpp`, `ClinicRoom.cpp` và `Statistics.cpp` trong nhánh nền còn là TODO của các phần A/B |
+| PatientStore | Chèn ngược thời gian đến; hòa thời gian theo ticket; trùng ID/ticket; tra cứu; ticket 2/7 cấp 8; ticket `INT_MAX`; reset, clear và dùng lại | Đạt |
+| FileIO | CRLF; bỏ dòng rỗng; tuổi chữ/âm/tràn số; mức ưu tiên không hợp tuổi; trùng ticket/ID; khoa sai; phút đến 480; thiếu trường; giữ dòng hợp lệ hai phía dòng lỗi; header sai; tệp thiếu; kho không rỗng; lưu-nạp lại; đường dẫn không ghi được | Đạt |
+| DataGenerator | Hai kho cùng seed/cấu hình có nội dung lưu giống nhau; ticket liên tục sau sắp xếp; miền tuổi/khoa/arrival/thời lượng; kho không rỗng và cấu hình sai | Đạt |
+| Tích hợp toàn ứng dụng | Build `src/*.cpp` và chạy bốn kịch bản qua UI | Chưa thể xác nhận: `LinkedQueue.cpp`, `PriorityHeap.cpp`, `ClinicRoom.cpp` và `Statistics.cpp` còn là TODO của B (A đã cài) |
+| Rò rỉ bộ nhớ | `leaks --atExit -- ./build/test_c` | 0 leak |
 
-Lệnh kiểm tra được thử trong môi trường hiện tại:
+Đầu ra thực tế (`make test-c`, macOS):
 
 ```text
-g++ ... tests\test_c.cpp ... -o build\test_c.exe
-Kết quả: không chạy; g++ not found.
+PASS PatientStore ordering, uniqueness, search, tickets, reset and reuse
+PASS FileIO CRLF, bad-line isolation, malformed header, missing/unwritable paths and round trip
+PASS DataGenerator deterministic seed, ordering, ticket sequence and bounds
 ```
+
+Lần thử đầu trên Windows (không có compiler) chưa chạy được; còn chờ chạy lại trên Windows với MinGW-w64.
 
 `git diff --check` đã chạy và không báo lỗi whitespace.
 
@@ -67,6 +71,6 @@ Gọi `N` là số bệnh nhân, `m` là số bệnh nhân đã bắt đầu kh�
 
 ## 5. Điểm chờ tích hợp
 
-- Bằng chứng biên dịch/chạy cần được bổ sung khi có GCC/MinGW-w64 hoặc compiler C++17 khác.
+- Đã có bằng chứng chạy trên macOS; còn thiếu Windows/MinGW-w64.
 - Chạy test tích hợp và `saveRunResults` cần các phần A/B hoàn thành; không thay thế chúng bằng test double trong bàn giao này.
-- Chưa xác nhận trực tiếp trên macOS. UI không dùng API riêng nền tảng; đường dẫn và compiler cần được kiểm tra trên môi trường đó.
+- UI không dùng API riêng nền tảng; test C đã chạy đạt trên macOS.

@@ -12,7 +12,7 @@ else
 GC_SECTIONS = -Wl,--gc-sections
 endif
 
-.PHONY: all test-a test-a-queue test-c test-leader test-leader-isolated check-leader
+.PHONY: all test-a test-a-queue test-b test-c test-leader test-leader-isolated check-leader
 all: build/clinic_simulator
 
 build:
@@ -33,6 +33,13 @@ test-a-queue: build/test_a_queue
 
 build/test_a_queue: tests/test_a.cpp src/LinkedQueue.cpp src/Patient.cpp $(HEADERS) | build
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -DTEST_A_QUEUE_ONLY tests/test_a.cpp src/LinkedQueue.cpp src/Patient.cpp -o $@
+
+# B: PriorityHeap, Statistics and Merge Sort report (needs real PatientStore of C).
+test-b: build/test_b
+	./build/test_b
+
+build/test_b: tests/test_b.cpp src/PriorityHeap.cpp src/Statistics.cpp src/PatientStore.cpp src/Patient.cpp $(HEADERS) | build
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) tests/test_b.cpp src/PriorityHeap.cpp src/Statistics.cpp src/PatientStore.cpp src/Patient.cpp -o $@
 
 # Isolated C tests discard the unreferenced run-results writer, which depends on B.
 test-c: build/test_c

@@ -5,6 +5,7 @@
 
 #include <charconv>
 #include <cctype>
+#include <filesystem>
 #include <iostream>
 #include <limits>
 #include <stdexcept>
@@ -244,6 +245,23 @@ int runConsole(std::istream& in, std::ostream& out) {
     Simulation simulation(store);
     bool initialized = false;
 
+    const std::string workingPath = "data/patients_working.txt";
+    std::error_code filesystemError;
+    const bool hasWorkingFile = std::filesystem::exists(workingPath, filesystemError);
+    if (filesystemError) {
+        out << "Khong kiem tra duoc tep du lieu phien truoc: "
+            << filesystemError.message() << '\n';
+    } else if (!hasWorkingFile) {
+        out << "Chua co du lieu phien truoc; kho benh nhan dang rong.\n";
+    } else {
+        const LoadResult result =
+            loadPatients(workingPath, store, simulation.config().closingTime, out);
+        if (result.opened && result.headerValid) {
+            out << "Da nap du lieu phien truoc: chap nhan=" << result.accepted
+                << ", tu choi=" << result.rejected << ".\n";
+        }
+    }
+
     for (;;) {
         out << "\n=== Clinic Queue Simulation ===\n"
             << "1. Nap tep benh nhan\n"
@@ -325,25 +343,45 @@ int runConsole(std::istream& in, std::ostream& out) {
             continue;
         }
         if (choice == 4) {
-            std::string id;
-            std::string name;
-            if (!readLine(in, out, "Ma benh nhan: ", id) ||
-                !readLine(in, out, "Ho ten: ", name)) return 0;
-            int age = 0;
-            if (!readInt(in, out, "Tuoi [0, 120]: ", 0, 120, false, 0, age)) return 0;
-            bool emergency = false;
-            if (!readYesNo(in, out, "Cap cuu? (y/n): ", false, emergency)) return 0;
-            int specialty = 0;
-            if (!readInt(in, out, "Khoa [1, 3]: ", 1, 3, false, 0, specialty)) return 0;
-            int duration = 0;
-            if (!readInt(in, out, "Thoi luong kham (phut): ", 1,
-                         std::numeric_limits<int>::max(),
-                         false, 0, duration)) return 0;
-            std::string error;
-            if (!simulation.admit(id, name, age, emergency, specialty, duration, error))
+            if (!initialized) {
+                out << "Hay khoi tao mo phong truoc khi tiep nhan.\n";
+                continue;
+            }
+            if (simulation.nextMinute() >= simulation.config().closingTime) {
+                out << "Da dong tiep nhan.\n";
+                continue;
+            }
+            for (;;) {
+                std::string id;
+                std::string name;
+                if (!readLine(in, out, "Ma benh nhan: ", id) ||
+                    !readLine(in, out, "Ho ten: ", name)) return 0;
+                int age = 0;
+                if (!readInt(in, out, "Tuoi [0, 120]: ", 0, 120, false, 0, age)) return 0;
+                bool emergency = false;
+                if (!readYesNo(in, out, "Cap cuu? (y/n): ", false, emergency)) return 0;
+                int specialty = 0;
+                if (!readInt(in, out, "Khoa [1, 3]: ", 1, 3, false, 0, specialty)) return 0;
+                int duration = 0;
+                if (!readInt(in, out, "Thoi luong kham (phut): ", 1,
+                             std::numeric_limits<int>::max(),
+                             false, 0, duration)) return 0;
+                std::string error;
+                if (simulation.admit(id, name, age, emergency, specialty, duration, error)) {
+                    const Patient* admitted = store.findById(id);
+                    out << "Da tiep nhan: ticket=" << admitted->input.ticketNumber
+                        << ", muc uu tien=" << static_cast<int>(admitted->input.priority)
+                        << ", phut den=" << admitted->input.arrivalTime
+                        << ", phong=chua phan (se phan khi xu ly phut den).\n";
+                    break;
+                }
+
                 out << "Tiep nhan that bai: " << error << '\n';
-            else
-                out << "Da tiep nhan; ticket va phut den duoc cap tu dong.\n";
+                bool retry = false;
+                if (!readYesNo(in, out, "Nhap lai thong tin? (y/n): ", true, retry))
+                    return 0;
+                if (!retry) break;
+            }
             continue;
         }
         if (choice == 5) {

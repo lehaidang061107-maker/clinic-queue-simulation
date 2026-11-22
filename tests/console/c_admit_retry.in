@@ -1,0 +1,29 @@
+3
+
+
+
+
+
+4
+BN90
+Valid Patient
+30
+n
+1
+5
+4
+BN90
+Duplicate ID
+30
+n
+1
+5
+y
+BN91
+Corrected Patient
+5
+y
+2
+5
+0
+data/patients_working.txt

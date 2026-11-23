@@ -1,0 +1,7 @@
+Da khoi tao 4 phong.
+Da tiep nhan: ticket=1, muc uu tien=2, phut den=0, phong=1.
+Da tiep nhan: ticket=2, muc uu tien=2, phut den=0, phong=2.
+Phut 0
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=T1, ket thuc=5
+Phong 2 (Noi): cho thuong=0, cho uu tien=0, dang kham=T2, ket thuc=5
+Da luu 2 benh nhan

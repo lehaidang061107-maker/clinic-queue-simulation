@@ -14,7 +14,8 @@ public:
     // Validate config va toan bo input truoc khi reset/tao phong.
     bool initialize(const SimulationConfig&, std::string& error);
     // Tiep nhan thu cong chi truoc khi xu ly phut dau tien hoac giua cac buoc.
-    // Ham tu cap ticket va arrivalTime=nextMinute(); validate truoc khi add.
+    // Ham tu cap ticket va arrivalTime=nextMinute(); validate truoc khi add,
+    // roi xep ngay vao phong dung khoa (assignedRoomId co gia tri khi tra ve true).
     bool admit(const std::string& id, const std::string& name, int age,
                bool emergency, int specialtyId, int duration, std::string& error);
     // Xu ly tron phut nextMinute: finish -> arrivals -> start -> snapshot.
@@ -36,6 +37,7 @@ private:
     bool initialized_;
     Statistics statistics_;
     int selectRoom(int specialtyId) const;
+    void assignArrivals(int minute); // Xep nguoi NotArrived co arrivalTime == minute.
     void observeAllQueues();
 };
 } // namespace clinic

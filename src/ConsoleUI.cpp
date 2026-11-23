@@ -372,7 +372,7 @@ int runConsole(std::istream& in, std::ostream& out) {
                     out << "Da tiep nhan: ticket=" << admitted->input.ticketNumber
                         << ", muc uu tien=" << static_cast<int>(admitted->input.priority)
                         << ", phut den=" << admitted->input.arrivalTime
-                        << ", phong=chua phan (se phan khi xu ly phut den).\n";
+                        << ", phong=" << admitted->assignedRoomId << ".\n";
                     break;
                 }
 

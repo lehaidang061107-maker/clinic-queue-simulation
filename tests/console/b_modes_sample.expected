@@ -1,0 +1,16 @@
+Da nap: chap nhan=5, tu choi=0
+Muc 0: bat dau=1, cho TB=2, cho max=2
+Muc 1: bat dau=2, cho TB=10.5, cho max=13
+Muc 2: bat dau=2, cho TB=9.5, cho max=19
+Danh sach cho (sap xep giam dan):
+1. BN02 (Tran Van Binh), ticket=2, den=1, bat dau=20, cho=19
+2. BN05 (Pham Minh Duy), ticket=4, den=2, bat dau=15, cho=13
+3. BN03 (Le Thi Chi), ticket=3, den=2, bat dau=10, cho=8
+4. BN04 (Hoang Van Hai), ticket=5, den=3, bat dau=5, cho=2
+5. BN01 (Nguyen Van An), ticket=1, den=0, bat dau=0, cho=0
+Da luu ket qua vao results/run_results.txt.
+Muc 0: bat dau=1, cho TB=17, cho max=17
+Muc 2: bat dau=2, cho TB=2, cho max=4
+1. BN04 (Hoang Van Hai), ticket=5, den=3, bat dau=20, cho=17
+4. BN02 (Tran Van Binh), ticket=2, den=1, bat dau=5, cho=4
+Da luu 5 benh nhan

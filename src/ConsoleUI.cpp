@@ -2,6 +2,7 @@
 
 #include "DataGenerator.h"
 #include "FileIO.h"
+#include "Statistics.h"
 
 #include <charconv>
 #include <cctype>
@@ -197,6 +198,27 @@ bool runComparisonScenario(Simulation& simulation, const SimulationConfig& confi
 }
 
 } // namespace
+
+void printSortedWaitReport(const PatientStore& store, std::ostream& out) {
+    int count = 0;
+    const Patient** report = makeSortedWaitReport(store, count);
+    out << "Danh sach cho (sap xep giam dan):\n";
+    if (count == 0 || report == nullptr) {
+        out << "Chua co du lieu\n";
+        delete[] report;
+        return;
+    }
+    for (int index = 0; index < count; ++index) {
+        const Patient* patient = report[index];
+        out << (index + 1) << ". " << patient->input.id
+            << " (" << patient->input.fullName << ")"
+            << ", ticket=" << patient->input.ticketNumber
+            << ", den=" << patient->input.arrivalTime
+            << ", bat dau=" << patient->startTime
+            << ", cho=" << waitingTime(*patient) << '\n';
+    }
+    delete[] report;
+}
 
 void printMinuteSnapshot(const Simulation& simulation, std::ostream& out) {
     out << "Phut " << simulation.lastProcessedMinute() << '\n';
@@ -405,6 +427,7 @@ int runConsole(std::istream& in, std::ostream& out) {
         if (choice == 7) {
             printMinuteSnapshot(simulation, out);
             printStatistics(simulation, out);
+            printSortedWaitReport(store, out);
             continue;
         }
         if (choice == 8) {

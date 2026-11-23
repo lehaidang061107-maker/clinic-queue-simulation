@@ -159,4 +159,4 @@ Leader chạy lại toàn bộ `tests/console/`, kiểm tra lưu/mở lại và 
 
 **Chuẩn bị cho giai đoạn sau:** C giữ các bảng kiểm tra cho báo cáo; A giữ ảnh console cho slide; B ghi lại các chỗ thống kê cần thêm cho so sánh 4 kịch bản ở giai đoạn 4.
 
-[Tổng quan giai đoạn 3](06_Tong_quan_giai_doan_3.md) · [Phân công giai đoạn 2](05_Phan_cong_giai_doan_2.md)
+[Tổng quan giai đoạn 3](06_Tong_quan_giai_doan_3.md) · [Tổng quan giai đoạn 4](08_Tong_quan_giai_doan_4.md) · [Phân công giai đoạn 2](05_Phan_cong_giai_doan_2.md)

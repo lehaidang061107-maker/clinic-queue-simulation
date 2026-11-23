@@ -161,6 +161,13 @@ bool Simulation::isFinished() const {
 }
 int Simulation::nextMinute() const { return nextMinute_; }
 int Simulation::lastProcessedMinute() const { return nextMinute_ - 1; }
+int Simulation::lastFinishMinute() const {
+    int last = -1;
+    for (const PatientStore::Node* node = store_.head_; node; node = node->next)
+        if (node->patient.status == PatientStatus::Completed && node->patient.finishTime > last)
+            last = node->patient.finishTime;
+    return last;
+}
 int Simulation::roomCount() const { return roomCount_; }
 const ClinicRoom& Simulation::roomAt(int index) const {
     if (index < 0 || index >= roomCount_) throw std::out_of_range("Chi so phong khong hop le.");

@@ -24,6 +24,9 @@ public:
     bool isFinished() const; // Da dong tiep nhan va khong con nguoi chua den/cho/dang kham.
     int nextMinute() const;
     int lastProcessedMinute() const; // -1 truoc buoc dau.
+    // Phut ket thuc ngay: finishTime lon nhat cua nguoi da kham xong; -1 neu chua ai xong.
+    // Khi isFinished() va co benh nhan, bang lastProcessedMinute(). Duyet kho O(N).
+    int lastFinishMinute() const;
     int roomCount() const;
     const ClinicRoom& roomAt(int index) const;
     const Statistics& statistics() const;

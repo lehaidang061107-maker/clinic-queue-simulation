@@ -1,10 +1,9 @@
-1
-data/format_example.txt
 3
 
 
 
 
+y
 7
 0
-build/a_empty_out.txt
+build/console/a_empty_working.txt

@@ -1,7 +1,7 @@
 1
-data/format_example.txt
+data/patients_sample.txt
 3
-120
+
 1
 1
 1
@@ -26,5 +26,6 @@ y
 5
 5
 5
+5
 0
-build/a_20min_out.txt
+build/console/a_20min_working.txt

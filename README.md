@@ -2,7 +2,7 @@
 
 Đề tài 6 — Mô phỏng hàng đợi khám bệnh bằng C++17, giao diện console trên Windows và macOS.
 
-**Hiện trạng:** đã có thiết kế giai đoạn 1 cho Leader/A/B/C, khai báo header, khung `.cpp` và ví dụ 5 bệnh nhân. Bước tiếp theo là cài đặt và kiểm tra ở giai đoạn 2; chưa có ứng dụng chạy được.
+**Hiện trạng:** các mô-đun Leader/A/B/C, menu console, bộ kiểm thử và dữ liệu mẫu 30 bệnh nhân đã có trong mã nguồn. Build và các test A/B/C/Leader đã chạy đạt trên Windows với MinGW-w64; macOS chưa xác minh trong lần bàn giao này.
 
 ## Mục tiêu
 
@@ -30,11 +30,25 @@ BN01|Nguyen Van An|30|2|1|1|0|5
 ```
 
 - `data/format_example.txt`: ví dụ 5 bệnh nhân.
-- `data/patients_sample.txt`, `data/patients_large.txt`: dự kiến ≥30 và ≥10.000 bản ghi, hiện chưa có dữ liệu.
+- `data/patients_sample.txt`: 30 bản ghi, phủ đủ khoa/mức ưu tiên, tuổi biên, nhiều người đến cùng phút và phút 479.
+- `data/patients_large.txt`: dành cho thực nghiệm giai đoạn sau; hiện chưa có dữ liệu.
 - `data/patients_working.txt`: dự kiến lưu đầu vào khi lưu/thoát; mở lại là phiên mới.
 - `results/`: kết quả và số liệu thực nghiệm, lưu riêng với đầu vào.
 
 Dữ liệu sinh dùng seed để lặp lại được. Các kịch bản so sánh phải giữ nguyên đầu vào; chỉ ghi số liệu hiệu năng sau khi chạy đo thực tế.
+
+## Cách chạy
+
+Chạy lệnh từ thư mục gốc dự án. Cần C++17 và `make` (trên Windows: MinGW-w64 và `mingw32-make`):
+
+```bash
+make
+make test-c
+```
+
+Chương trình nằm ở `build/clinic_simulator` (Windows: `build/clinic_simulator.exe`). Lần chạy đầu tự nạp `data/patients_working.txt` nếu tệp tồn tại; nếu chưa có thì bắt đầu với kho rỗng. Dùng mục 1 để nạp tệp khác, mục 2 để sinh dữ liệu, mục 3 để chọn cấu hình, mục 4–9 để tiếp nhận/chạy/xem/lưu/so sánh. Mục 0 lưu đầu vào vào `data/patients_working.txt` rồi thoát. Kết quả mô phỏng được lưu riêng trong `results/`.
+
+Các kịch bản nhập menu của phần C nằm trong `tests/console/`. Chúng giả định chạy từ thư mục gốc và kho phiên ban đầu rỗng; xóa hoặc di chuyển `data/patients_working.txt` trước mỗi ca để tránh phụ thuộc dữ liệu của lần chạy trước.
 
 ## Cấu trúc và phân công
 
@@ -48,17 +62,14 @@ Dữ liệu sinh dùng seed để lặp lại được. Các kịch bản so sá
 
 Mỗi người bàn giao code, kiểm thử và phần báo cáo của mình. Thay đổi giao diện header cần báo Leader.
 
-## Biên dịch dự kiến
-
-Chạy từ thư mục gốc sau khi hoàn thiện mã nguồn; lệnh hiện chưa tạo được ứng dụng chạy được:
+## Biên dịch
 
 ```bash
-mkdir -p build
-g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinclude src/*.cpp -o build/clinic_simulator
+make
 ./build/clinic_simulator
 ```
 
-Trên Windows dùng MinGW-w64, tạo thư mục `build` và đổi tên đầu ra thành `build/clinic_simulator.exe`.
+Trên Windows chạy `mingw32-make` rồi mở `build\clinic_simulator.exe`. Dùng `make test-c` (Windows: `mingw32-make test-c`) để kiểm thử kho, nạp/lưu tệp, bộ sinh và dữ liệu C.
 
 ## Kế hoạch và tài liệu thiết kế
 

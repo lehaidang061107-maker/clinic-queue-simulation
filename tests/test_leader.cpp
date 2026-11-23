@@ -1,4 +1,7 @@
 #include "Simulation.h"
+#ifndef LEADER_ISOLATED_TEST
+#include "DataGenerator.h"
+#endif
 #include <cassert>
 #include <iostream>
 #include <limits>
@@ -222,6 +225,125 @@ void immediateAdmission() {
     std::cout << "PASS immediate room assignment on admit, room ties, emergency while busy\n";
 }
 }
+#ifndef LEADER_ISOLATED_TEST
+// ---- Giai doan 4: bat bien tren ca ngay, bo sinh seed 2026 (giong data/patients_day.txt) ----
+bool before(const Patient& a, const Patient& b) {
+    return a.input.arrivalTime < b.input.arrivalTime ||
+           (a.input.arrivalTime == b.input.arrivalTime && a.input.ticketNumber < b.input.ticketNumber);
+}
+void generateDay(PatientStore& store, int count) {
+    GeneratorConfig generator; generator.patientCount = count; generator.seed = 2026;
+    std::string error;
+    assert(generatePatients(generator, store, error));
+    assert(store.size() == count);
+}
+struct RunInfo { int overtakes = 0; int mixedCalls = 0; };
+// Chay het ngay; sau moi buoc kiem nguoi vua duoc goi so voi nguoi con cho cung phong.
+// overtakes: nguoi duoc goi vuot qua mot nguoi den truoc (arrival, ticket) dang cho cung phong.
+// mixedCalls: luc goi, phong co ca nguoi o heap lan nguoi o FIFO.
+RunInfo runDay(Simulation& sim, PatientStore& store, int rooms, bool priority) {
+    SimulationConfig config; config.usePriority = priority;
+    for (int& n : config.roomsPerSpecialty) n = rooms;
+    std::string error;
+    assert(sim.initialize(config, error));
+    RunInfo info;
+    int steps = 0;
+    while (sim.step()) {
+        assert(++steps < 100000);
+        const int minute = sim.lastProcessedMinute();
+        for (int r = 0; r < sim.roomCount(); ++r) {
+            const ClinicRoom& room = sim.roomAt(r);
+            const Patient* called = room.currentPatient();
+            if (!called || called->startTime != minute) continue;
+            if (priority && called->input.priority != Priority::Normal && room.normalQueueSize() > 0)
+                ++info.mixedCalls;
+            for (const PatientStore::Node* node = store.head(); node; node = node->next) {
+                const Patient& other = node->patient;
+                if (other.status != PatientStatus::Waiting || other.assignedRoomId != room.id()) continue;
+                if (before(other, *called)) ++info.overtakes;
+                // Bat uu tien: khong goi muc thap hon khi muc cao hon dang cho cung phong.
+                if (priority) assert(static_cast<int>(other.input.priority) >= static_cast<int>(called->input.priority));
+            }
+        }
+    }
+    assert(sim.isFinished());
+    return info;
+}
+void checkDayInvariants(const Simulation& sim, const PatientStore& store, bool priority) {
+    const int n = store.size();
+    int started = 0;
+    long long totalWait[kPriorityCount] = {0, 0, 0};
+    int maxWait[kPriorityCount] = {0, 0, 0};
+    int count[kPriorityCount] = {0, 0, 0};
+    for (int level = 0; level < kPriorityCount; ++level)
+        started += sim.statistics().byPriority(static_cast<Priority>(level)).startedCount;
+    assert(started == n && sim.statistics().completedCount() == n);
+    for (const PatientStore::Node* a = store.head(); a; a = a->next) {
+        const Patient& p = a->patient;
+        assert(p.status == PatientStatus::Completed);
+        assert(p.startTime >= p.input.arrivalTime);
+        assert(p.finishTime == p.startTime + p.input.serviceDuration);
+        assert(p.assignedRoomId >= 1 && p.assignedRoomId <= sim.roomCount());
+        assert(sim.roomAt(p.assignedRoomId - 1).specialtyId() == p.input.specialtyId);
+        const int level = static_cast<int>(p.input.priority);
+        const int wait = waitingTime(p);
+        totalWait[level] += wait; ++count[level];
+        if (wait > maxWait[level]) maxWait[level] = wait;
+        for (const PatientStore::Node* b = a->next; b; b = b->next) {
+            const Patient& q = b->patient;
+            if (q.assignedRoomId != p.assignedRoomId) continue;
+            assert(p.finishTime <= q.startTime || q.finishTime <= p.startTime); // Khong chong ca.
+            if (!priority) assert((p.startTime < q.startTime) == before(p, q)); // FIFO dung thu tu.
+        }
+    }
+    for (int level = 0; level < kPriorityCount; ++level) {
+        const PriorityStats& stats = sim.statistics().byPriority(static_cast<Priority>(level));
+        assert(stats.startedCount == count[level] && stats.totalWait == totalWait[level]);
+        assert(stats.maxWait == maxWait[level]);
+    }
+    assert(sim.lastFinishMinute() == sim.lastProcessedMinute());
+}
+void fullDay() {
+    PatientStore store; generateDay(store, 180);
+    Simulation sim(store);
+    for (int rooms = 1; rooms <= 2; ++rooms) {
+        for (int priority = 1; priority >= 0; --priority) {
+            runDay(sim, store, rooms, priority == 1);
+            checkDayInvariants(sim, store, priority == 1);
+        }
+    }
+    // Ngay rong: khong ai xong, phut ket thuc -1.
+    PatientStore empty; Simulation emptySim(empty);
+    std::string error; assert(emptySim.initialize({}, error)); finish(emptySim);
+    assert(emptySim.lastFinishMinute() == -1 && emptySim.lastProcessedMinute() == 479);
+    std::cout << "PASS full day 180 patients x 4 configs: counts, times, rooms, no overlap, order, stats\n";
+}
+// Neu khong co lan goi nao vuot nguoi den truoc thi lich bat uu tien trung lich FIFO:
+// moi phut cung trang thai, chon phong chi phu thuoc so cho, nen ket qua trung tung nguoi.
+void overtakeExplanation() {
+    const int sizes[] = {120, 150, 180};
+    for (int size : sizes) {
+        for (int rooms = 1; rooms <= 2; ++rooms) {
+            PatientStore store; generateDay(store, size);
+            Simulation sim(store);
+            const RunInfo on = runDay(sim, store, rooms, true);
+            int startOn[400];
+            int i = 0;
+            for (const PatientStore::Node* node = store.head(); node; node = node->next) startOn[i++] = node->patient.startTime;
+            runDay(sim, store, rooms, false);
+            bool same = true;
+            i = 0;
+            for (const PatientStore::Node* node = store.head(); node; node = node->next)
+                if (node->patient.startTime != startOn[i++]) same = false;
+            std::cout << "INFO n=" << size << " rooms=" << rooms << " overtakes=" << on.overtakes
+                      << " mixedCalls=" << on.mixedCalls << " sameSchedule=" << (same ? "yes" : "no") << '\n';
+            assert(on.overtakes != 0 || same); // Khong vuot ai => phai trung lich.
+            assert(!same || on.overtakes == 0); // Trung lich ma van co vuot => loi.
+        }
+    }
+    std::cout << "PASS priority on/off identical schedule iff no overtakes\n";
+}
+#endif
 #ifdef LEADER_ISOLATED_TEST
 namespace clinic {
 extern bool failNextEnqueueForLeaderTest;
@@ -230,6 +352,9 @@ extern bool failNextStatisticsResetForLeaderTest;
 #endif
 int main() {
     validators(); scenarios(); arrivalsAndLifecycle(); admissionAndOverflow(); immediateAdmission();
+#ifndef LEADER_ISOLATED_TEST
+    fullDay(); overtakeExplanation();
+#endif
 #ifdef LEADER_ISOLATED_TEST
     PatientStore store; add(store, input("P", 1));
     Simulation sim(store); std::string error;

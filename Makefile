@@ -28,7 +28,7 @@ test-console: build/clinic_simulator
 # AddressSanitizer (macOS/Linux, clang/gcc): test-leader va chay het bo mau qua menu.
 ASAN_FLAGS = -fsanitize=address -fno-omit-frame-pointer -g
 test-asan: | build
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(ASAN_FLAGS) tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) -o build/test_leader_asan
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(ASAN_FLAGS) tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) src/DataGenerator.cpp -o build/test_leader_asan
 	./build/test_leader_asan
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(ASAN_FLAGS) $(wildcard src/*.cpp) -o build/clinic_simulator_asan
 	./build/clinic_simulator_asan < tests/console/leader_sample_4configs.in > build/asan_sample.out
@@ -69,8 +69,8 @@ build/test_c: tests/test_c.cpp $(LEADER) $(DEPENDENCIES) src/FileIO.cpp src/Data
 test-leader: build/test_leader
 	./build/test_leader
 
-build/test_leader: tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) $(HEADERS) | build
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) -o $@
+build/test_leader: tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) src/DataGenerator.cpp $(HEADERS) | build
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) tests/test_leader.cpp $(LEADER) $(DEPENDENCIES) src/DataGenerator.cpp -o $@
 
 # Explicit isolated verification while A/B/C are not implemented.
 test-leader-isolated: build/test_leader_isolated

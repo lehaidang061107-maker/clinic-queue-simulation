@@ -210,11 +210,57 @@ void checkGenerator() {
     std::cout << "PASS DataGenerator deterministic seed, ordering, ticket sequence and bounds\n";
 }
 
+void checkProjectDataFiles() {
+    PatientStore sample;
+    std::ostringstream sampleDiagnostics;
+    const LoadResult sampleResult =
+        loadPatients("data/patients_sample.txt", sample, 480, sampleDiagnostics);
+    assert(sampleResult.opened && sampleResult.headerValid);
+    assert(sampleResult.accepted == 30 && sampleResult.rejected == 0);
+
+    bool specialties[4] = {};
+    bool priorities[3] = {};
+    bool requiredAges[6] = {};
+    int arrivalsAtZero = 0;
+    bool arrival479 = false;
+    for (const PatientStore::Node* node = sample.head(); node; node = node->next) {
+        const PatientInput& input = node->patient.input;
+        specialties[input.specialtyId] = true;
+        priorities[static_cast<int>(input.priority)] = true;
+        if (input.age == 0) requiredAges[0] = true;
+        if (input.age == 5) requiredAges[1] = true;
+        if (input.age == 6) requiredAges[2] = true;
+        if (input.age == 59) requiredAges[3] = true;
+        if (input.age == 60) requiredAges[4] = true;
+        if (input.age == 120) requiredAges[5] = true;
+        if (input.arrivalTime == 0) ++arrivalsAtZero;
+        if (input.arrivalTime == 479) arrival479 = true;
+        assert(input.serviceDuration >= 5 && input.serviceDuration <= 15);
+    }
+    for (int specialty = 1; specialty <= 3; ++specialty) assert(specialties[specialty]);
+    for (int priority = 0; priority < 3; ++priority) assert(priorities[priority]);
+    for (bool agePresent : requiredAges) assert(agePresent);
+    assert(arrivalsAtZero >= 3 && arrival479);
+
+    PatientStore mixed;
+    std::ostringstream mixedDiagnostics;
+    const LoadResult mixedResult =
+        loadPatients("tests/data/invalid_mix.txt", mixed, 480, mixedDiagnostics);
+    assert(mixedResult.opened && mixedResult.headerValid);
+    assert(mixedResult.accepted == 2 && mixedResult.rejected == 6);
+    assert(mixed.size() == 2 && mixed.findById("OK01") && mixed.findById("OK02"));
+    assert(mixedDiagnostics.str().find("Dong 3:") != std::string::npos);
+    assert(mixedDiagnostics.str().find("Dong 8:") != std::string::npos);
+
+    std::cout << "PASS project sample coverage and mixed valid/invalid input data\n";
+}
+
 } // namespace
 
 int main() {
     checkStore();
     checkFileIO();
     checkGenerator();
+    checkProjectDataFiles();
     return 0;
 }

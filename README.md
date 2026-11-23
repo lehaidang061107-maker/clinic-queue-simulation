@@ -2,7 +2,7 @@
 
 Đề tài 6 — Mô phỏng hàng đợi khám bệnh bằng C++17, giao diện console trên Windows và macOS.
 
-**Hiện trạng:** đã có thiết kế giai đoạn 1 cho Leader/A/B/C, khai báo header, khung `.cpp` và ví dụ 5 bệnh nhân. Bước tiếp theo là cài đặt và kiểm tra ở giai đoạn 2; chưa có ứng dụng chạy được.
+**Hiện trạng (giai đoạn 3):** chương trình console chạy được từ menu với mô-đun thật của Leader/A/B/C. Tiếp nhận ở menu 4 tự cấp ticket, phút đến = phút hiện tại và xếp phòng ngay. `make`, `make test-all` và `make test-console` đã chạy đạt trên macOS 26.5 (arm64, Apple clang 16.0.0) ngày 23/11/2026. Theo bàn giao của C, build và test A/B/C/Leader cũng đạt trên Windows với MinGW-w64; Leader chưa tự chạy lại trên Windows. AddressSanitizer chưa chạy được trên máy macOS này (lỗi runtime ngay cả với chương trình rỗng), nên đã kiểm tra bộ nhớ thay bằng `leaks` và UBSan; xem `docs/Giai Doan 3/G3_Leader_Ban_giao.md`.
 
 ## Mục tiêu
 
@@ -30,11 +30,29 @@ BN01|Nguyen Van An|30|2|1|1|0|5
 ```
 
 - `data/format_example.txt`: ví dụ 5 bệnh nhân.
-- `data/patients_sample.txt`, `data/patients_large.txt`: dự kiến ≥30 và ≥10.000 bản ghi, hiện chưa có dữ liệu.
+- `data/patients_sample.txt`: 30 bản ghi, phủ đủ khoa/mức ưu tiên, tuổi biên, nhiều người đến cùng phút và phút 479.
+- `data/patients_large.txt`: dành cho thực nghiệm giai đoạn sau; hiện chưa có dữ liệu.
 - `data/patients_working.txt`: dự kiến lưu đầu vào khi lưu/thoát; mở lại là phiên mới.
 - `results/`: kết quả và số liệu thực nghiệm, lưu riêng với đầu vào.
 
 Dữ liệu sinh dùng seed để lặp lại được. Các kịch bản so sánh phải giữ nguyên đầu vào; chỉ ghi số liệu hiệu năng sau khi chạy đo thực tế.
+
+## Cách chạy
+
+Chạy lệnh từ thư mục gốc dự án. Cần C++17 và `make` (trên Windows: MinGW-w64 và `mingw32-make`):
+
+```bash
+make
+make test-c
+```
+
+Chương trình nằm ở `build/clinic_simulator` (Windows: `build/clinic_simulator.exe`). Lần chạy đầu tự nạp `data/patients_working.txt` nếu tệp tồn tại; nếu chưa có thì bắt đầu với kho rỗng. Dùng mục 1 để nạp tệp khác, mục 2 để sinh dữ liệu, mục 3 để chọn cấu hình, mục 4–9 để tiếp nhận/chạy/xem/lưu/so sánh. Mục 0 lưu đầu vào vào `data/patients_working.txt` rồi thoát. Kết quả mô phỏng được lưu riêng trong `results/`.
+
+Các kịch bản nhập menu nằm trong `tests/console/` (`<người>_<ca>.in` kèm `<người>_<ca>.expected`). Chúng giả định chạy từ thư mục gốc và kho phiên ban đầu rỗng. `make test-console` chạy tất cả: trước mỗi ca, script tạm cất `data/patients_working.txt` rồi trả lại khi xong, và kiểm tra từng dòng trong `.expected` có xuất hiện theo đúng thứ tự trong đầu ra. Đầu ra mỗi ca nằm ở `build/console/<ca>.out`. Muốn chạy một ca bằng tay thì xóa hoặc di chuyển `data/patients_working.txt` trước:
+
+```bash
+./build/clinic_simulator < tests/console/leader_three_priority.in
+```
 
 ## Cấu trúc và phân công
 
@@ -48,17 +66,23 @@ Dữ liệu sinh dùng seed để lặp lại được. Các kịch bản so sá
 
 Mỗi người bàn giao code, kiểm thử và phần báo cáo của mình. Thay đổi giao diện header cần báo Leader.
 
-## Biên dịch dự kiến
+## Biên dịch
 
-Chạy từ thư mục gốc sau khi hoàn thiện mã nguồn; lệnh hiện chưa tạo được ứng dụng chạy được:
+Cần trình biên dịch C++17 (g++ hoặc clang++) và `make`. Chạy từ thư mục gốc:
 
 ```bash
-mkdir -p build
-g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinclude src/*.cpp -o build/clinic_simulator
+make                 # build/clinic_simulator
+make test-all        # test-a, test-b, test-c, test-leader với mô-đun thật
+make test-console    # các kịch bản menu trong tests/console/
 ./build/clinic_simulator
 ```
 
-Trên Windows dùng MinGW-w64, tạo thư mục `build` và đổi tên đầu ra thành `build/clinic_simulator.exe`.
+| Máy | Compiler | Kết quả |
+| --- | --- | --- |
+| macOS 26.5 arm64 (Leader, 23/11/2026) | Apple clang 16.0.0, GNU Make 3.81 | `make`, `test-all`, `test-console` đạt |
+| Windows (theo bàn giao G3 của C) | MSYS2 GCC 16.2.0, GNU Make 4.4.1 | `mingw32-make` và test A/B/C/Leader đạt; Leader chưa tự chạy lại |
+
+Trên Windows chạy `mingw32-make` rồi `build\clinic_simulator.exe < tests\console\leader_three_priority.in`. `make test-console` cần `sh` (có sẵn trong Git Bash/MSYS2). `make test-asan` build với `-fsanitize=address` rồi chạy test-leader và bộ mẫu ở 4 cấu hình. Target này cần một toolchain có ASan chạy được.
 
 ## Kế hoạch và tài liệu thiết kế
 

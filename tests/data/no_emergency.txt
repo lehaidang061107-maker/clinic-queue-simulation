@@ -1,0 +1,7 @@
+id|fullName|age|priority|specialtyId|ticketNumber|arrivalTime|serviceDuration
+NE01|Pham Minh An|4|1|1|1|0|5
+NE02|Vo Thi Binh|28|2|1|2|1|6
+NE03|Dang Van Cuong|68|1|2|3|2|5
+NE04|Bui Thi Dung|35|2|2|4|3|7
+NE05|Hoang Van Em|72|1|3|5|4|6
+NE06|Ngo Thi Hoa|19|2|3|6|5|5

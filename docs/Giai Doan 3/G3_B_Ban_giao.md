@@ -108,3 +108,10 @@ Danh sach cho (sap xep giam dan):
 - **Việc chờ thành viên khác:** Chờ A và C hoàn thiện bộ kịch bản `.in` và dữ liệu mẫu `data/patients_sample.txt` (≥30 bản ghi) để chạy tích hợp toàn bộ kịch bản của nhóm.
 - **Ghi chú chuẩn bị cho Giai đoạn 4 (so sánh 4 kịch bản):** Hiện `Statistics` đã cung cấp đủ dữ liệu từng mức ưu tiên (`startedCount`, `totalWait`, `maxWait`), đỉnh hàng chờ từng phòng (`byRoom`) và toàn hệ thống (`maxSystemWaiting`). Sang Giai đoạn 4 có thể bổ sung thêm hàm tính thời gian chờ trung bình chung toàn hệ thống (tổng `totalWait` của 3 mức chia tổng `startedCount`) và tỷ lệ phục vụ đúng giờ để lập bảng đối chiếu trực quan giữa 4 cấu hình ở Menu `9`.
 
+
+## 6. Leader rà soát và sửa (23/11/2026)
+
+- `src/ConsoleUI.cpp`: sửa `#include "Statistics.h` thiếu dấu `"` đóng (lỗi này làm `make` không biên dịch được), trả lại chú thích `} // namespace` và bỏ hai dòng trống thừa. Không đổi logic.
+- Chuyển tệp bàn giao từ `G3_B_Ban_giao.md/G3_B_Ban_giao.md.md` (một thư mục) về `docs/Giai Doan 3/G3_B_Ban_giao.md`.
+- Thêm `tests/console/b_*.expected`, lấy số liệu từ bảng mục 3, để `make test-console` tự kiểm. Trên macOS (Apple clang 16.0.0), cả 4 ca `b_*` đều đạt.
+- Lưu ý: `b_modes_sample` và `b_no_emergency` ghi đè `results/run_results.txt`; các ca `b_*` khi thoát lưu vào `data/patients_working.txt`. `make test-console` tự cất tệp working trước mỗi ca và trả lại sau khi xong; khi chạy tay thì cần tự xóa.

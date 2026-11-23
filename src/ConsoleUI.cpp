@@ -2,7 +2,8 @@
 
 #include "DataGenerator.h"
 #include "FileIO.h"
-#include "Statistics.h
+#include "Statistics.h"
+
 #include <charconv>
 #include <cctype>
 #include <iostream>
@@ -195,7 +196,8 @@ bool runComparisonScenario(Simulation& simulation, const SimulationConfig& confi
     return true;
 }
 
-} 
+} // namespace
+
 void printSortedWaitReport(const PatientStore& store, std::ostream& out) {
     int count = 0;
     const Patient** report = makeSortedWaitReport(store, count);
@@ -390,8 +392,6 @@ int runConsole(std::istream& in, std::ostream& out) {
             printSortedWaitReport(store, out);
             continue;
         }
-        
-        
         if (choice == 8) {
             int saveChoice = 0;
             if (!readInt(in, out, "1: du lieu dau vao, 2: ket qua: ", 1, 2,

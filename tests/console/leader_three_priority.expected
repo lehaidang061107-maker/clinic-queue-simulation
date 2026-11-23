@@ -1,0 +1,12 @@
+Da nap: chap nhan=3, tu choi=0
+Da khoi tao 3 phong.
+Muc 1: bat dau=1, cho TB=3, cho max=3
+Muc 2: bat dau=2, cho TB=4.5, cho max=9
+Da hoan tat=3
+Da luu 3 benh nhan
+Priority enabled: yes
+Started: 3
+Completed: 3
+BN02|2|1|10|9
+BN03|3|2|5|3
+BN01|1|0|0|0

@@ -1,0 +1,17 @@
+Da tiep nhan: ticket=1, muc uu tien=2, phut den=0, phong=1.
+Da tiep nhan: ticket=2, muc uu tien=2, phut den=0, phong=1.
+Phut 1
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=N1, ket thuc=5
+Da tiep nhan: ticket=3, muc uu tien=0, phut den=2, phong=1.
+Phut 4
+Phong 1 (Noi): cho thuong=1, cho uu tien=1, dang kham=N1, ket thuc=5
+Phut 5
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=E1, ket thuc=10
+Phut 10
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=N2, ket thuc=15
+Thong ke (hoan tat)
+Da hoan tat=3
+Completed: 3
+N2|2|0|10|10
+E1|3|2|5|3
+N1|1|0|0|0

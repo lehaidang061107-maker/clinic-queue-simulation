@@ -77,7 +77,19 @@ bool Simulation::admit(const std::string& id, const std::string& name, int age,
             error = "Tong thoi luong co the lam tran dong ho mo phong.";
             return false;
         }
-        return store_.add(input, error);
+        if (!store_.add(input, error)) return false;
+        // Xep phong ngay: phan tat ca nguoi den phut nay theo thu tu (arrival, ticket),
+        // giong het buoc "tiep nhan nguoi den" cua step(). Hoan tat ca dang kham khong
+        // doi so cho, nen chon phong truoc buoc hoan tat cho cung ket qua.
+        try {
+            assignArrivals(nextMinute_);
+        } catch (...) {
+            // Nguoi moi da vao kho nhung phong co the da xep do dang: buoc khoi tao lai.
+            initialized_ = false;
+            error = "Khong xep duoc phong; hay khoi tao lai mo phong (menu 3).";
+            return false;
+        }
+        return true;
     } catch (const std::bad_alloc&) {
         error = "Khong du bo nho de tiep nhan.";
     } catch (const std::overflow_error& failure) {
@@ -98,6 +110,19 @@ int Simulation::selectRoom(int specialtyId) const {
     return best;
 }
 
+void Simulation::assignArrivals(int minute) {
+    // C maintains (arrival, ticket) order, also when admitting between steps.
+    for (PatientStore::Node* node = store_.head_; node; node = node->next) {
+        Patient& patient = node->patient;
+        if (patient.status != PatientStatus::NotArrived || patient.input.arrivalTime != minute)
+            continue;
+        const int index = selectRoom(patient.input.specialtyId);
+        rooms_[index].enqueue(&patient, config_.usePriority);
+        patient.assignedRoomId = rooms_[index].id();
+        patient.status = PatientStatus::Waiting;
+    }
+}
+
 void Simulation::observeAllQueues() {
     int total = 0;
     for (int i = 0; i < roomCount_; ++i) total += rooms_[i].waitingCount();
@@ -110,16 +135,7 @@ bool Simulation::step() {
     try {
         for (int i = 0; i < roomCount_; ++i)
             if (rooms_[i].finishIfDue(nextMinute_)) statistics_.recordCompletion();
-        // C maintains (arrival, ticket) order, also when admitting between steps.
-        for (PatientStore::Node* node = store_.head_; node; node = node->next) {
-            Patient& patient = node->patient;
-            if (patient.status != PatientStatus::NotArrived || patient.input.arrivalTime != nextMinute_)
-                continue;
-            const int index = selectRoom(patient.input.specialtyId);
-            rooms_[index].enqueue(&patient, config_.usePriority);
-            patient.assignedRoomId = rooms_[index].id();
-            patient.status = PatientStatus::Waiting;
-        }
+        assignArrivals(nextMinute_);
         observeAllQueues();
         for (int i = 0; i < roomCount_; ++i) {
             Patient* patient = rooms_[i].startNext(nextMinute_, config_.usePriority);

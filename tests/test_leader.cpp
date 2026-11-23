@@ -181,6 +181,46 @@ void admissionAndOverflow() {
     Simulation invalidSim(invalidStore); assert(!invalidSim.initialize({}, error));
     std::cout << "PASS admission 479/480, ticket gaps/overflow, duration budget, invalid input\n";
 }
+void immediateAdmission() {
+    std::string error;
+    // Hoa phong: 2 phong Noi trong, 2 nguoi cung phut -> phong ma nho roi phong con lai.
+    PatientStore store; Simulation sim(store);
+    SimulationConfig two; two.roomsPerSpecialty[0] = 2;
+    assert(sim.initialize(two, error));
+    assert(sim.admit("T1", "Name", 30, false, 1, 5, error));
+    assert(store.findById("T1")->assignedRoomId == 1);
+    assert(store.findById("T1")->status == PatientStatus::Waiting);
+    assert(sim.roomAt(0).waitingCount() == 1);
+    assert(sim.admit("T2", "Name", 30, false, 1, 5, error));
+    assert(store.findById("T2")->assignedRoomId == 2);
+    assert(sim.step());
+    assert(store.findById("T1")->startTime == 0 && store.findById("T2")->startTime == 0);
+    // Nguoi dang kham khong tinh vao so cho: ca hai phong ban, hang deu rong -> phong 1.
+    assert(sim.admit("T3", "Name", 30, false, 1, 5, error));
+    assert(store.findById("T3")->assignedRoomId == 1 && store.findById("T3")->input.arrivalTime == 1);
+    finish(sim);
+    assert(sim.statistics().completedCount() == 3);
+
+    // Cap cuu khi ban: goi ngay sau ca hien tai, truoc nguoi thuong dang cho.
+    PatientStore busy; Simulation bsim(busy);
+    assert(bsim.initialize({}, error));
+    assert(bsim.admit("N1", "Name", 30, false, 1, 5, error));
+    assert(bsim.admit("N2", "Name", 30, false, 1, 5, error));
+    assert(bsim.step() && bsim.step()); // N1 kham 0..5, N2 cho FIFO.
+    assert(bsim.admit("E1", "Name", 30, true, 1, 5, error));
+    assert(busy.findById("E1")->input.priority == Priority::Emergency);
+    assert(bsim.roomAt(0).priorityQueueSize() == 1 && bsim.roomAt(0).normalQueueSize() == 1);
+    assert(bsim.roomAt(0).currentPatient() == busy.findById("N1")); // Khong ngat ca dang kham.
+    finish(bsim);
+    assert(busy.findById("E1")->startTime == 5 && busy.findById("N2")->startTime == 10);
+
+    // Nguoi tu tep den cung phut van duoc xep truoc nguoi tiep nhan (thu tu arrival, ticket).
+    PatientStore mixed; add(mixed, input("F1", 1, 1));
+    Simulation msim(mixed); assert(msim.initialize(two, error) && msim.step());
+    assert(msim.admit("M1", "Name", 30, false, 1, 5, error));
+    assert(mixed.findById("F1")->assignedRoomId == 1 && mixed.findById("M1")->assignedRoomId == 2);
+    std::cout << "PASS immediate room assignment on admit, room ties, emergency while busy\n";
+}
 }
 #ifdef LEADER_ISOLATED_TEST
 namespace clinic {
@@ -189,7 +229,7 @@ extern bool failNextStatisticsResetForLeaderTest;
 }
 #endif
 int main() {
-    validators(); scenarios(); arrivalsAndLifecycle(); admissionAndOverflow();
+    validators(); scenarios(); arrivalsAndLifecycle(); admissionAndOverflow(); immediateAdmission();
 #ifdef LEADER_ISOLATED_TEST
     PatientStore store; add(store, input("P", 1));
     Simulation sim(store); std::string error;

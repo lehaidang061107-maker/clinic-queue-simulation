@@ -2,5 +2,6 @@
 tests/data/three_patients.txt
 9
 
+build/console/leader_compare_three_results.txt
 0
 build/console/leader_compare_three_working.txt

@@ -251,4 +251,26 @@ bool saveRunResults(const std::string& path, const PatientStore& store,
     return true;
 }
 
+bool saveComparisonResults(const std::string& path, const std::string& report,
+                           std::string& error) {
+    error.clear();
+    std::ofstream output(path.c_str(), std::ios::out | std::ios::binary | std::ios::trunc);
+    if (!output.is_open()) {
+        error = "Khong mo duoc tep de ghi: " + path;
+        return false;
+    }
+
+    output << report;
+    if (!output) {
+        error = "Loi ghi bang so sanh vao tep: " + path;
+        return false;
+    }
+    output.close();
+    if (!output) {
+        error = "Loi hoan tat ghi bang so sanh vao tep: " + path;
+        return false;
+    }
+    return true;
+}
+
 } // namespace clinic

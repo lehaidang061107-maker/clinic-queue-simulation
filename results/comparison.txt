@@ -1,0 +1,6 @@
+Bang so sanh 4 kich ban
+Kich ban | Muc 0 TB/max | Muc 1 TB/max | Muc 2 TB/max | Cho TB chung | Cho lon nhat | Phut ket thuc | Bat dau/hoan tat
+1 phong, bat uu tien | 5.5/13 | 18.4943/50 | 168.164/408 | 77.75 | 41 | 723 | 180/180
+1 phong, tat uu tien | 74.45/220 | 80.0345/241 | 74.9726/231 | 77.3611 | 43 | 723 | 180/180
+2 phong, bat uu tien | 2.55/8 | 4.29885/19 | 4.0274/32 | 3.99444 | 7 | 492 | 180/180
+2 phong, tat uu tien | 2.55/8 | 5.03448/22 | 3.34247/16 | 4.07222 | 7 | 492 | 180/180

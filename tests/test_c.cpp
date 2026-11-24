@@ -24,6 +24,8 @@ const char* const kBadHeaderPath = "build/test_c_bad_header.txt";
 const char* const kMissingPath = "build/test_c_missing.txt";
 const char* const kGeneratedAPath = "build/test_c_generated_a.txt";
 const char* const kGeneratedBPath = "build/test_c_generated_b.txt";
+const char* const kDayGeneratedPath = "build/test_c_patients_day.txt";
+const char* const kComparisonPath = "build/test_c_comparison.txt";
 
 PatientInput patient(const std::string& id, int ticket, int arrival) {
     return {id, "Patient " + id, 30, Priority::Normal, 1, ticket, arrival, 5};
@@ -155,9 +157,16 @@ void checkFileIO() {
 
     assert(!savePatients("build/no_such_directory/output.txt", store, error));
     assert(!error.empty());
+    const std::string comparison = "Bang so sanh\nscenario|value\n";
+    assert(saveComparisonResults(kComparisonPath, comparison, error) && error.empty());
+    assert(readFile(kComparisonPath) == comparison);
+    assert(!saveComparisonResults("build/no_such_directory/comparison.txt",
+                                  comparison, error));
+    assert(!error.empty());
     std::remove(kInputPath);
     std::remove(kSavedPath);
     std::remove(kBadHeaderPath);
+    std::remove(kComparisonPath);
     std::cout << "PASS FileIO CRLF, bad-line isolation, malformed header, missing/unwritable paths and round trip\n";
 }
 
@@ -252,7 +261,21 @@ void checkProjectDataFiles() {
     assert(mixedDiagnostics.str().find("Dong 3:") != std::string::npos);
     assert(mixedDiagnostics.str().find("Dong 8:") != std::string::npos);
 
-    std::cout << "PASS project sample coverage and mixed valid/invalid input data\n";
+    GeneratorConfig dayConfig;
+    dayConfig.patientCount = 180;
+    dayConfig.closingTime = 480;
+    dayConfig.minServiceDuration = 5;
+    dayConfig.maxServiceDuration = 15;
+    dayConfig.seed = 2026;
+    PatientStore regeneratedDay;
+    std::string error;
+    assert(generatePatients(dayConfig, regeneratedDay, error) && error.empty());
+    assert(regeneratedDay.size() == 180);
+    assert(savePatients(kDayGeneratedPath, regeneratedDay, error) && error.empty());
+    assert(readFile(kDayGeneratedPath) == readFile("data/patients_day.txt"));
+    std::remove(kDayGeneratedPath);
+
+    std::cout << "PASS project sample coverage, mixed input and deterministic day data\n";
 }
 
 } // namespace

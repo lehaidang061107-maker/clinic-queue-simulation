@@ -7,8 +7,10 @@
 #include <charconv>
 #include <cctype>
 #include <filesystem>
+#include <fstream>
 #include <iostream>
 #include <limits>
+#include <sstream>
 #include <stdexcept>
 #include <string>
 #include <system_error>
@@ -180,7 +182,35 @@ void printPriorityStatistics(const Statistics& statistics, std::ostream& out) {
     }
 }
 
+struct ComparisonRow {
+    std::string name;
+    PriorityStats byPriority[kPriorityCount];
+    bool hasAverageWait = false;
+    double averageWait = 0.0;
+    int maxSystemWaiting = 0;
+    int finishMinute = -1;
+    int started = 0;
+    int completed = 0;
+};
+
+void captureComparisonRow(const Simulation& simulation, const std::string& name,
+                          ComparisonRow& row) {
+    row.name = name;
+    const Statistics& statistics = simulation.statistics();
+    for (int level = 0; level < kPriorityCount; ++level) {
+        row.byPriority[level] = statistics.byPriority(static_cast<Priority>(level));
+    }
+    row.hasAverageWait = statistics.averageWait(row.averageWait);
+    row.maxSystemWaiting = statistics.maxSystemWaiting();
+    row.finishMinute = simulation.lastFinishMinute();
+    row.started = 0;
+    for (int level = 0; level < kPriorityCount; ++level)
+        row.started += row.byPriority[level].startedCount;
+    row.completed = statistics.completedCount();
+}
+
 bool runComparisonScenario(Simulation& simulation, const SimulationConfig& config,
+                           const std::string& name, ComparisonRow& row,
                            std::ostream& out) {
     std::string error;
     if (!simulation.initialize(config, error)) {
@@ -194,7 +224,78 @@ bool runComparisonScenario(Simulation& simulation, const SimulationConfig& confi
         }
     }
     printStatistics(simulation, out);
+    captureComparisonRow(simulation, name, row);
     return true;
+}
+
+std::string comparisonTable(const ComparisonRow* rows, int count) {
+    std::ostringstream report;
+    report << "Bang so sanh 4 kich ban\n"
+           << "Kich ban | Muc 0 TB/max | Muc 1 TB/max | Muc 2 TB/max"
+           << " | Cho TB chung | Cho lon nhat | Phut ket thuc | Bat dau/hoan tat\n";
+    for (int rowIndex = 0; rowIndex < count; ++rowIndex) {
+        const ComparisonRow& row = rows[rowIndex];
+        report << row.name;
+        for (int level = 0; level < kPriorityCount; ++level) {
+            const PriorityStats& values = row.byPriority[level];
+            report << " | ";
+            if (values.startedCount == 0) {
+                report << "Chua co du lieu";
+            } else {
+                report << static_cast<double>(values.totalWait) / values.startedCount
+                       << '/' << values.maxWait;
+            }
+        }
+        report << " | ";
+        if (row.hasAverageWait) report << row.averageWait;
+        else report << "Chua co du lieu";
+        report << " | " << row.maxSystemWaiting
+               << " | " << row.finishMinute
+               << " | " << row.started << '/' << row.completed << '\n';
+    }
+    return report.str();
+}
+
+void writeMinuteLog(const Simulation& simulation, const PatientStore& store,
+                    std::ostream& log) {
+    const int minute = simulation.lastProcessedMinute();
+    printMinuteSnapshot(simulation, log);
+    for (const PatientStore::Node* node = store.head(); node; node = node->next) {
+        const Patient& patient = node->patient;
+        if (patient.finishTime == minute)
+            log << "Hoan tat: " << patient.input.id
+                << " (phong " << patient.assignedRoomId << ")\n";
+    }
+    for (const PatientStore::Node* node = store.head(); node; node = node->next) {
+        const Patient& patient = node->patient;
+        if (patient.startTime == minute)
+            log << "Goi kham: " << patient.input.id
+                << " (phong " << patient.assignedRoomId
+                << ", cho " << waitingTime(patient) << ")\n";
+    }
+}
+
+void runToEndWithLog(Simulation& simulation, const PatientStore& store,
+                     bool printEveryMinute, std::ostream& out,
+                     std::ostream* log, const std::string& logPath,
+                     bool& logFailed) {
+    std::string error;
+    if (!simulation.initialize(simulation.config(), error))
+        throw std::runtime_error("Khong khoi tao duoc mo phong: " + error);
+    while (!simulation.isFinished()) {
+        if (!simulation.step())
+            throw std::runtime_error("Mo phong dung truoc khi ket thuc.");
+        if (printEveryMinute) printMinuteSnapshot(simulation, out);
+        if (log != nullptr) {
+            writeMinuteLog(simulation, store, *log);
+            if (!*log) {
+                out << "Ghi nhat ky that bai: " << logPath << '\n';
+                logFailed = true;
+                log = nullptr;
+            }
+        }
+    }
+    printStatistics(simulation, out);
 }
 
 } // namespace
@@ -251,15 +352,10 @@ void printStatistics(const Simulation& simulation, std::ostream& out) {
 }
 
 void runToEnd(Simulation& simulation, bool printEveryMinute, std::ostream& out) {
-    std::string error;
-    if (!simulation.initialize(simulation.config(), error))
-        throw std::runtime_error("Khong khoi tao duoc mo phong: " + error);
-    while (!simulation.isFinished()) {
-        if (!simulation.step())
-            throw std::runtime_error("Mo phong dung truoc khi ket thuc.");
-        if (printEveryMinute) printMinuteSnapshot(simulation, out);
-    }
-    printStatistics(simulation, out);
+    PatientStore emptyStore;
+    bool logFailed = false;
+    runToEndWithLog(simulation, emptyStore, printEveryMinute, out, nullptr,
+                    std::string(), logFailed);
 }
 
 int runConsole(std::istream& in, std::ostream& out) {
@@ -420,7 +516,32 @@ int runConsole(std::istream& in, std::ostream& out) {
             bool printEveryMinute = false;
             if (!readYesNo(in, out, "In tung phut? (y/n): ", false, printEveryMinute))
                 return 0;
-            runToEnd(simulation, printEveryMinute, out);
+            bool writeLog = false;
+            if (!readYesNo(in, out, "Ghi nhat ky ra tep? (y/n): ", false, writeLog))
+                return 0;
+            std::string logPath;
+            std::ofstream logFile;
+            std::ostream* log = nullptr;
+            bool logFailed = false;
+            if (writeLog) {
+                if (!readPath(in, out, "Duong dan tep nhat ky",
+                              "results/log.txt", logPath)) return 0;
+                logFile.open(logPath.c_str(), std::ios::out | std::ios::binary |
+                                                std::ios::trunc);
+                if (!logFile.is_open())
+                    out << "Khong mo duoc tep nhat ky de ghi: " << logPath << '\n';
+                else
+                    log = &logFile;
+            }
+            runToEndWithLog(simulation, store, printEveryMinute, out, log, logPath,
+                            logFailed);
+            if (logFile.is_open()) {
+                logFile.close();
+                if (!logFile && !logFailed)
+                    out << "Hoan tat ghi nhat ky that bai: " << logPath << '\n';
+                else if (!logFailed)
+                    out << "Da ghi nhat ky vao " << logPath << ".\n";
+            }
             initialized = true;
             continue;
         }
@@ -451,28 +572,61 @@ int runConsole(std::istream& in, std::ostream& out) {
             continue;
         }
 
-        SimulationConfig base = simulation.config();
+        const SimulationConfig previousConfig = simulation.config();
+        SimulationConfig base = previousConfig;
         int closingTime = 0;
         if (!readInt(in, out, "Phut dong tiep nhan: ", 1,
                      std::numeric_limits<int>::max() - 1,
                      true, base.closingTime, closingTime)) return 0;
         base.closingTime = closingTime;
 
+        ComparisonRow rows[4];
+        bool comparisonSucceeded = true;
         out << "\n--- 1 phong, bat uu tien ---\n";
-        for (int& rooms : base.roomsPerSpecialty) rooms = 1;
-        base.usePriority = true;
-        if (!runComparisonScenario(simulation, base, out)) continue;
+        SimulationConfig scenario = base;
+        for (int& rooms : scenario.roomsPerSpecialty) rooms = 1;
+        scenario.usePriority = true;
+        comparisonSucceeded = runComparisonScenario(
+            simulation, scenario, "1 phong, bat uu tien", rows[0], out);
+
         out << "\n--- 1 phong, tat uu tien ---\n";
-        base.usePriority = false;
-        if (!runComparisonScenario(simulation, base, out)) continue;
-        for (int& rooms : base.roomsPerSpecialty) rooms = 2;
-        base.usePriority = true;
+        scenario.usePriority = false;
+        comparisonSucceeded = comparisonSucceeded && runComparisonScenario(
+            simulation, scenario, "1 phong, tat uu tien", rows[1], out);
+
+        scenario = base;
+        for (int& rooms : scenario.roomsPerSpecialty) rooms = 2;
+        scenario.usePriority = true;
         out << "\n--- 2 phong, bat uu tien ---\n";
-        if (!runComparisonScenario(simulation, base, out)) continue;
-        base.usePriority = false;
+        comparisonSucceeded = comparisonSucceeded && runComparisonScenario(
+            simulation, scenario, "2 phong, bat uu tien", rows[2], out);
+
+        scenario.usePriority = false;
         out << "\n--- 2 phong, tat uu tien ---\n";
-        if (!runComparisonScenario(simulation, base, out)) continue;
-        initialized = true;
+        comparisonSucceeded = comparisonSucceeded && runComparisonScenario(
+            simulation, scenario, "2 phong, tat uu tien", rows[3], out);
+
+        if (comparisonSucceeded) {
+            std::string path;
+            if (!readPath(in, out, "Duong dan bang so sanh",
+                          "results/comparison.txt", path)) return 0;
+            const std::string report = comparisonTable(rows, 4);
+            out << report;
+            std::string error;
+            if (!saveComparisonResults(path, report, error))
+                out << "Luu bang so sanh that bai: " << error << '\n';
+            else
+                out << "Da luu bang so sanh vao " << path << ".\n";
+        }
+
+        std::string restoreError;
+        if (!simulation.initialize(previousConfig, restoreError)) {
+            out << "Khong khoi tao lai duoc phien truoc: " << restoreError << '\n';
+            initialized = false;
+        } else {
+            initialized = true;
+            out << "Da khoi tao lai phien theo cau hinh truoc khi so sanh.\n";
+        }
     }
 }
 

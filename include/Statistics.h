@@ -1,5 +1,6 @@
 #ifndef CLINIC_STATISTICS_H
 #define CLINIC_STATISTICS_H
+#include <string>
 #include "PatientStore.h"
 namespace clinic {
 struct PriorityStats {
@@ -15,7 +16,7 @@ public:
     ~Statistics();
     Statistics(const Statistics&) = delete;
     Statistics& operator=(const Statistics&) = delete;
-    void reset(int roomCount); // Khoi tao roomId theo index+1.
+    void reset(int roomCount); // Khoi tao roomId theo index+1; cap phat truoc khi doi trang thai.
     void recordStart(const Patient& patient); // Dung 1 lan/nguoi/kich ban.
     void recordCompletion();
     void observeQueues(int roomIndex, int roomWaiting, int systemWaiting);
@@ -23,6 +24,12 @@ public:
     const RoomStats& byRoom(int roomIndex) const;
     int maxSystemWaiting() const;
     int completedCount() const;
+    int totalStartedCount() const;
+    long long totalWaitingTime() const;
+    // Tra ve 0.0 neu chua co ai bat dau kham (khong chia cho 0).
+    double averageWait() const;
+    // Tra ve "Chua co du lieu" neu totalStartedCount() == 0, nguoc lai in gia tri averageWait().
+    std::string formatAverageWait() const;
 private:
     PriorityStats priority_[kPriorityCount];
     RoomStats* rooms_;

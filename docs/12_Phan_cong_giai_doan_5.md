@@ -5,7 +5,7 @@ Mỗi người làm trên nhánh riêng, mở PR vào **`develop`**. Trước kh
 ## Leader
 
 1. Duyệt `make bench` của B: đúng `-O2`, tắt in từng phút và nhật ký, tách thời gian sinh dữ liệu.
-2. Xem số đo đầu tiên của B, quyết định có tối ưu bước tìm người đến hay không:
+2. ~~Quyết định tối ưu~~ — **đã làm**, xem [bàn giao Leader G5](Giai%20Doan%205/G5_Leader_Ban_giao.md). B cần đo lại bằng `make bench` để có bảng trước/sau chính thức (bản trước: commit `08345d0`). Chi tiết cách làm:
    - nếu làm: giữ con trỏ chạy dọc kho và bộ đếm người chưa xong thay vì duyệt lại cả kho mỗi phút; kiểm `test-all`, `test-console`, `comparison.txt` trùng từng byte; báo B đo lại;
    - nếu không làm: ghi lý do kèm số đo.
 3. Viết nháp mục **Độ phức tạp và hiệu năng** cho báo cáo, đối chiếu với số đo của B.

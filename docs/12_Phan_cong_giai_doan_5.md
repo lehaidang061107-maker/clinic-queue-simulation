@@ -20,7 +20,7 @@ Mỗi người làm trên nhánh riêng, mở PR vào **`develop`**. Trước kh
    - `ClinicRoom` nhận 10.000 người đủ 3 mức, gọi hết, đúng thứ tự ở cả hai chế độ.
 3. Đo bộ nhớ:
    - lý thuyết: `sizeof` các nút và `Patient`, tính byte dự kiến cho từng N;
-   - thực tế: bộ nhớ đỉnh từng N bằng `/usr/bin/time -l` (macOS) hoặc `/usr/bin/time -v` (Linux);
+   - thực tế: bộ nhớ đỉnh từng N bằng `/usr/bin/time -l` (macOS) hoặc `/usr/bin/time -v` (Linux), chạy `./build/bench --sizes <N> --reps 1 --out build/mem.csv` (sau `make bench-quick` để có `build/bench`);
    - ghi vào `results/memory_<máy>.txt`.
 4. Lập **bảng kiểm thử tổng hợp**: mỗi ca trong `tests/` và `tests/console/` một dòng (mã ca → mục đích → dữ liệu → mong đợi → thực tế → đạt).
 5. Chụp ảnh `make bench` và `make test-asan` cho slide.
@@ -31,9 +31,9 @@ Mỗi người làm trên nhánh riêng, mở PR vào **`develop`**. Trước kh
 
 1. Viết `tests/bench.cpp` và target `make bench` (biên dịch `-O2`):
    - N = 1.000, 2.000, 5.000, 10.000, 20.000, sinh bằng `generatePatients` seed 2026;
-   - 4 cấu hình × 5 lần; giữa các lần chỉ `initialize` lại, không sinh lại dữ liệu;
+   - 5 lần × 4 cấu hình; mỗi lần: sinh → lưu → nạp lại một lần, rồi 4 cấu hình chạy trên cùng kho (chỉ `initialize` lại, không sinh lại);
    - đo bằng `std::chrono::steady_clock`: sinh dữ liệu, mô phỏng, Merge Sort, nạp và lưu tệp;
-   - ghi `results/bench_<máy>.csv` với cột `n,rooms,priority,run,gen_ms,sim_ms,sort_ms,load_ms,save_ms,end_minute`; đầu tệp ghi máy, hệ điều hành, compiler, cờ, commit.
+   - chạy `make bench MACHINE=<máy>` (Windows: `mingw32-make bench MACHINE=windows`), ghi `results/bench_<máy>.csv`; `make bench-quick` để thử nhanh. Cột `n,rooms,priority,run,gen_ms,sim_ms,sort_ms,load_ms,save_ms,end_minute`; đầu tệp ghi máy, hệ điều hành, compiler, cờ, commit.
 2. Đo trên ít nhất 2 máy (macOS của Leader, Windows của C).
 3. Vẽ biểu đồ vào `docs/Giai Doan 5/img/`:
    - thời gian mô phỏng theo N, 4 cấu hình, trục log–log;

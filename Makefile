@@ -12,7 +12,7 @@ else
 GC_SECTIONS = -Wl,--gc-sections
 endif
 
-.PHONY: all test-all test-console test-asan test-a test-a-queue test-b test-c test-leader test-leader-isolated check-leader
+.PHONY: bench bench-quick all test-all test-console test-asan test-a test-a-queue test-b test-c test-leader test-leader-isolated check-leader
 all: build/clinic_simulator
 
 build:
@@ -81,3 +81,25 @@ build/test_leader_isolated: tests/test_leader.cpp tests/support/leader_dependenc
 
 check-leader:
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -fsyntax-only $(LEADER) src/main.cpp
+
+# Do hieu nang (giai doan 5). Bien dich -O2. MACHINE dat ten tep ket qua, vi du:
+#   make bench MACHINE=macos      -> results/bench_macos.csv
+#   mingw32-make bench MACHINE=windows
+# bench-quick chi de thu nhanh (2 kich thuoc, 2 lan), ghi build/bench_quick.csv.
+MACHINE ?= local
+BENCH_CXXFLAGS = -std=c++17 -O2 -Wall -Wextra -Wpedantic
+BENCH_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null)
+ifeq ($(BENCH_COMMIT),)
+BENCH_COMMIT = unknown
+endif
+BENCH_SRC = tests/bench.cpp $(LEADER) $(DEPENDENCIES) src/FileIO.cpp src/DataGenerator.cpp
+
+bench: build/bench
+	mkdir -p results
+	./build/bench --machine $(MACHINE) --commit $(BENCH_COMMIT) --flags -O2
+
+bench-quick: build/bench
+	./build/bench --machine quick --commit $(BENCH_COMMIT) --flags -O2 --sizes 1000,2000 --reps 2 --out build/bench_quick.csv
+
+build/bench: $(BENCH_SRC) $(HEADERS) | build
+	$(CXX) $(CPPFLAGS) $(BENCH_CXXFLAGS) $(BENCH_SRC) -o $@

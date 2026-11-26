@@ -22,8 +22,6 @@ public:
     void observeQueues(int roomIndex, int roomWaiting, int systemWaiting);
     const PriorityStats& byPriority(Priority priority) const;
     const RoomStats& byRoom(int roomIndex) const;
-    // Returns false and sets average to 0 when nobody has started.
-    bool averageWait(double& average) const;
     int maxSystemWaiting() const;
     int completedCount() const;
     int totalStartedCount() const;

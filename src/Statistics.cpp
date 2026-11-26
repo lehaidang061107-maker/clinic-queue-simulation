@@ -142,21 +142,6 @@ const RoomStats& Statistics::byRoom(int roomIndex) const {
     return rooms_[roomIndex];
 }
 
-bool Statistics::averageWait(double& average) const {
-    long long totalWait = 0;
-    long long startedCount = 0;
-    for (int level = 0; level < kPriorityCount; ++level) {
-        totalWait += priority_[level].totalWait;
-        startedCount += priority_[level].startedCount;
-    }
-    if (startedCount == 0) {
-        average = 0.0;
-        return false;
-    }
-    average = static_cast<double>(totalWait) / static_cast<double>(startedCount);
-    return true;
-}
-
 int Statistics::maxSystemWaiting() const {
     return maxSystemWaiting_;
 }

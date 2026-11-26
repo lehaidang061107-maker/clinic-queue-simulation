@@ -228,6 +228,41 @@ void checkLeaderExample() {
     std::cout << "PASS ClinicRoom leader example waits 0/9/3 (on) and 0/4/8 (off)\n";
 }
 
+void checkRoomNoPreemption() {
+    Patient normal = makePatient("BN01", 1, 0, Priority::Normal, 5);
+    Patient emerg = makePatient("BN02", 2, 2, Priority::Emergency, 3);
+    normal.status = PatientStatus::Waiting;
+    emerg.status = PatientStatus::Waiting;
+
+    ClinicRoom room;
+    room.configure(1, 1);
+    room.enqueue(&normal, true);
+    assert(room.startNext(0, true) == &normal);
+    assert(room.isBusy());
+    assert(normal.finishTime == 5);
+
+    // Phut 2: cap cuu den luc phong dang ban -> khong ngat ca dang kham.
+    room.enqueue(&emerg, true);
+    assert(room.finishIfDue(2) == nullptr);
+    assert(room.startNext(2, true) == nullptr);
+    assert(room.currentPatient() == &normal);
+    assert(room.priorityQueueSize() == 1);
+
+    // Phut 4: van chua het ca -> giu nguyen BN01.
+    assert(room.finishIfDue(4) == nullptr);
+    assert(room.startNext(4, true) == nullptr);
+    assert(room.currentPatient() == &normal);
+
+    // Phut 5: ca hien tai xong -> goi cap cuu vao ngay.
+    assert(room.finishIfDue(5) == &normal);
+    assert(normal.status == PatientStatus::Completed);
+    assert(room.startNext(5, true) == &emerg);
+    assert(room.currentPatient() == &emerg);
+    assert(emerg.startTime == 5 && emerg.finishTime == 8);
+    assert(room.priorityQueueSize() == 0);
+    std::cout << "PASS ClinicRoom non-preemption when emergency arrives\n";
+}
+
 #endif // TEST_A_QUEUE_ONLY
 
 } // namespace
@@ -243,6 +278,7 @@ int main() {
     checkRoomStartFinish();
     checkRoomReset();
     checkLeaderExample();
+    checkRoomNoPreemption();
 #else
     std::cout << "SKIP ClinicRoom (TEST_A_QUEUE_ONLY: can PriorityHeap that)\n";
 #endif

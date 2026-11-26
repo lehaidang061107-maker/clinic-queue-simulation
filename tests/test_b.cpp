@@ -122,6 +122,8 @@ void checkStatistics() {
 
     assert(stats.byPriority(Priority::Emergency).startedCount == 0);
     assert(stats.completedCount() == 0);
+    double averageWait = -1.0;
+    assert(!stats.averageWait(averageWait) && averageWait == 0.0);
 
     // Khong ghi nhan benh nhan chua bat dau kham
     Patient notStarted = makePatient("WAIT", Priority::Normal, 0, 10, -1);
@@ -141,7 +143,17 @@ void checkStatistics() {
     assert(pref.totalWait == 12);
     assert(pref.maxWait == 8);
     assert(pref.totalWait / pref.startedCount == 6); // trung binh 6
+    assert(stats.averageWait(averageWait) && averageWait == 6.0);
     assert(stats.completedCount() == 2);
+
+    Statistics mixedStats;
+    mixedStats.reset(1);
+    Patient emergency = makePatient("EM", Priority::Emergency, 0, 3, 0);
+    Patient normal = makePatient("NO", Priority::Normal, 0, 4, 8);
+    mixedStats.recordStart(emergency);
+    mixedStats.recordStart(p1);
+    mixedStats.recordStart(normal);
+    assert(mixedStats.averageWait(averageWait) && averageWait == 4.0);
 
     // Snapshot (3,0) roi (0,4): max he thong = 4, khong cong cuc dai rieng (7)
     stats.observeQueues(0, 3, 3);
@@ -160,6 +172,7 @@ void checkStatistics() {
     assert(stats.byRoom(0).maxWaiting == 0);
     assert(stats.maxSystemWaiting() == 0);
     assert(stats.completedCount() == 0);
+    assert(!stats.averageWait(averageWait) && averageWait == 0.0);
 
     std::cout << "PASS Statistics priority aggregation, bounds check, queue peaks and reset\n";
 }

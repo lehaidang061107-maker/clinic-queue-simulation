@@ -13,4 +13,10 @@ Muc 2: bat dau=2, cho TB=2, cho max=4
 --- 2 phong, tat uu tien ---
 Muc 1: bat dau=1, cho TB=0, cho max=0
 Muc 2: bat dau=2, cho TB=2, cho max=4
+Bang so sanh 4 kich ban
+1 phong, bat uu tien | Chua co du lieu | 3/3 | 4.5/9 | 4 | 2 | 15 | 3/3
+1 phong, tat uu tien | Chua co du lieu | 8/8 | 2/4 | 4 | 2 | 15 | 3/3
+2 phong, bat uu tien | Chua co du lieu | 0/0 | 2/4 | 1.33333 | 2 | 10 | 3/3
+2 phong, tat uu tien | Chua co du lieu | 0/0 | 2/4 | 1.33333 | 2 | 10 | 3/3
+Da khoi tao lai phien theo cau hinh truoc khi so sanh
 Da luu 3 benh nhan

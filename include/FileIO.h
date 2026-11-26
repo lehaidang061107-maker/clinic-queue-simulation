@@ -17,5 +17,7 @@ LoadResult loadPatients(const std::string& path, PatientStore& store,
 bool savePatients(const std::string& path, const PatientStore&, std::string& error);
 bool saveRunResults(const std::string& path, const PatientStore&,
                     const Simulation&, std::string& error);
+bool saveComparisonResults(const std::string& path, const std::string& report,
+                           std::string& error);
 } // namespace clinic
 #endif

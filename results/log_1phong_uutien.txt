@@ -1,0 +1,3256 @@
+Phut 0
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Goi kham: BN88 (phong 2, cho 0)
+Phut 1
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 2
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 3
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 4
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Goi kham: BN111 (phong 1, cho 0)
+Phut 5
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN88, ket thuc=6
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 6
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Hoan tat: BN88 (phong 2)
+Phut 7
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 8
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Goi kham: BN110 (phong 2, cho 0)
+Phut 9
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 10
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 11
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN111, ket thuc=12
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 12
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Hoan tat: BN111 (phong 1)
+Phut 13
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 14
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Goi kham: BN71 (phong 1, cho 0)
+Phut 15
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 16
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN54, ket thuc=27
+Goi kham: BN54 (phong 3, cho 0)
+Phut 17
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN54, ket thuc=27
+Phut 18
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN54, ket thuc=27
+Phut 19
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN54, ket thuc=27
+Phut 20
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN54, ket thuc=27
+Phut 21
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Phut 22
+Phong 1 (Noi): cho thuong=0, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN110, ket thuc=23
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Phut 23
+Phong 1 (Noi): cho thuong=1, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Hoan tat: BN110 (phong 2)
+Goi kham: BN7 (phong 2, cho 6)
+Phut 24
+Phong 1 (Noi): cho thuong=1, cho uu tien=1, dang kham=BN71, ket thuc=25
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Phut 25
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Hoan tat: BN71 (phong 1)
+Goi kham: BN136 (phong 1, cho 10)
+Phut 26
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN54, ket thuc=27
+Phut 27
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Hoan tat: BN54 (phong 3)
+Goi kham: BN68 (phong 3, cho 6)
+Phut 28
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 29
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 30
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 31
+Phong 1 (Noi): cho thuong=1, cho uu tien=1, dang kham=BN136, ket thuc=32
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 32
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Hoan tat: BN136 (phong 1)
+Goi kham: BN102 (phong 1, cho 1)
+Phut 33
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 34
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 35
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN7, ket thuc=36
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Phut 36
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN68, ket thuc=37
+Hoan tat: BN7 (phong 2)
+Goi kham: BN167 (phong 2, cho 0)
+Phut 37
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Hoan tat: BN68 (phong 3)
+Phut 38
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 39
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 40
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 41
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 42
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 43
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 44
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 45
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN102, ket thuc=46
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Phut 46
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN167, ket thuc=47
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Hoan tat: BN102 (phong 1)
+Goi kham: BN30 (phong 1, cho 2)
+Phut 47
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN132, ket thuc=58
+Hoan tat: BN167 (phong 2)
+Goi kham: BN132 (phong 3, cho 0)
+Phut 48
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN132, ket thuc=58
+Phut 49
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN132, ket thuc=58
+Phut 50
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=1, dang kham=BN132, ket thuc=58
+Phut 51
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=2, dang kham=BN132, ket thuc=58
+Phut 52
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=2, dang kham=BN132, ket thuc=58
+Phut 53
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN132, ket thuc=58
+Phut 54
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN132, ket thuc=58
+Phut 55
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN13, ket thuc=60
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN132, ket thuc=58
+Goi kham: BN13 (phong 2, cho 0)
+Phut 56
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN13, ket thuc=60
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN132, ket thuc=58
+Phut 57
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN30, ket thuc=58
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN13, ket thuc=60
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN132, ket thuc=58
+Phut 58
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN13, ket thuc=60
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Hoan tat: BN30 (phong 1)
+Hoan tat: BN132 (phong 3)
+Goi kham: BN77 (phong 1, cho 12)
+Goi kham: BN74 (phong 3, cho 7)
+Phut 59
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN13, ket thuc=60
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 60
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN75, ket thuc=65
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Hoan tat: BN13 (phong 2)
+Goi kham: BN75 (phong 2, cho 2)
+Phut 61
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN75, ket thuc=65
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 62
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN75, ket thuc=65
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 63
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN75, ket thuc=65
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 64
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN75, ket thuc=65
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 65
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN2, ket thuc=70
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Hoan tat: BN75 (phong 2)
+Goi kham: BN2 (phong 2, cho 5)
+Phut 66
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN77, ket thuc=67
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN2, ket thuc=70
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN74, ket thuc=71
+Phut 67
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=1, dang kham=BN2, ket thuc=70
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN74, ket thuc=71
+Hoan tat: BN77 (phong 1)
+Goi kham: BN96 (phong 1, cho 0)
+Phut 68
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=1, dang kham=BN2, ket thuc=70
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN74, ket thuc=71
+Phut 69
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=1, dang kham=BN2, ket thuc=70
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=5, dang kham=BN74, ket thuc=71
+Phut 70
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=5, dang kham=BN74, ket thuc=71
+Hoan tat: BN2 (phong 2)
+Goi kham: BN99 (phong 2, cho 3)
+Phut 71
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Hoan tat: BN74 (phong 3)
+Goi kham: BN158 (phong 3, cho 22)
+Phut 72
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 73
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 74
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 75
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 76
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 77
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN99, ket thuc=78
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 78
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Hoan tat: BN99 (phong 2)
+Goi kham: BN91 (phong 2, cho 14)
+Phut 79
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN96, ket thuc=80
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN158, ket thuc=80
+Phut 80
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN10, ket thuc=88
+Hoan tat: BN158 (phong 3)
+Hoan tat: BN96 (phong 1)
+Goi kham: BN10 (phong 3, cho 27)
+Goi kham: BN147 (phong 1, cho 27)
+Phut 81
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN10, ket thuc=88
+Phut 82
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN10, ket thuc=88
+Phut 83
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN10, ket thuc=88
+Phut 84
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN10, ket thuc=88
+Phut 85
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN10, ket thuc=88
+Phut 86
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN91, ket thuc=87
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN10, ket thuc=88
+Phut 87
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN10, ket thuc=88
+Hoan tat: BN91 (phong 2)
+Phut 88
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Hoan tat: BN10 (phong 3)
+Goi kham: BN174 (phong 3, cho 35)
+Goi kham: BN76 (phong 2, cho 0)
+Phut 89
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN147, ket thuc=90
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Phut 90
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN155, ket thuc=95
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Hoan tat: BN147 (phong 1)
+Goi kham: BN155 (phong 1, cho 8)
+Phut 91
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN155, ket thuc=95
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Phut 92
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN155, ket thuc=95
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Phut 93
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN155, ket thuc=95
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=3, dang kham=BN174, ket thuc=101
+Phut 94
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN155, ket thuc=95
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=4, dang kham=BN174, ket thuc=101
+Phut 95
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Hoan tat: BN155 (phong 1)
+Goi kham: BN40 (phong 1, cho 72)
+Phut 96
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Phut 97
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Phut 98
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN76, ket thuc=99
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Phut 99
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Hoan tat: BN76 (phong 2)
+Phut 100
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN40, ket thuc=101
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN174, ket thuc=101
+Phut 101
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=3, dang kham=BN133, ket thuc=112
+Hoan tat: BN40 (phong 1)
+Hoan tat: BN174 (phong 3)
+Goi kham: BN133 (phong 3, cho 34)
+Goi kham: BN73 (phong 1, cho 5)
+Phut 102
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=3, dang kham=BN133, ket thuc=112
+Phut 103
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=3, dang kham=BN133, ket thuc=112
+Phut 104
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=3, dang kham=BN133, ket thuc=112
+Phut 105
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 106
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 107
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 108
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 109
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 110
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 111
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN133, ket thuc=112
+Phut 112
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=3, dang kham=BN90, ket thuc=117
+Hoan tat: BN133 (phong 3)
+Goi kham: BN90 (phong 3, cho 43)
+Goi kham: BN36 (phong 2, cho 0)
+Phut 113
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN90, ket thuc=117
+Phut 114
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN73, ket thuc=115
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN90, ket thuc=117
+Phut 115
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=5, dang kham=BN90, ket thuc=117
+Hoan tat: BN73 (phong 1)
+Goi kham: BN28 (phong 1, cho 13)
+Phut 116
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=5, dang kham=BN90, ket thuc=117
+Phut 117
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN165, ket thuc=126
+Hoan tat: BN90 (phong 3)
+Goi kham: BN165 (phong 3, cho 33)
+Phut 118
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN36, ket thuc=119
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 119
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN165, ket thuc=126
+Hoan tat: BN36 (phong 2)
+Phut 120
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 121
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 122
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 123
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 124
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 125
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN165, ket thuc=126
+Phut 126
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN28, ket thuc=127
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN20, ket thuc=133
+Hoan tat: BN165 (phong 3)
+Goi kham: BN20 (phong 3, cho 32)
+Phut 127
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN20, ket thuc=133
+Hoan tat: BN28 (phong 1)
+Goi kham: BN3 (phong 1, cho 3)
+Phut 128
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN20, ket thuc=133
+Phut 129
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=5, dang kham=BN20, ket thuc=133
+Phut 130
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=5, dang kham=BN20, ket thuc=133
+Phut 131
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=5, dang kham=BN20, ket thuc=133
+Phut 132
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=5, dang kham=BN20, ket thuc=133
+Phut 133
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Hoan tat: BN20 (phong 3)
+Goi kham: BN116 (phong 3, cho 28)
+Phut 134
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 135
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Goi kham: BN23 (phong 2, cho 0)
+Phut 136
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 137
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 138
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN3, ket thuc=139
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 139
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Hoan tat: BN3 (phong 1)
+Goi kham: BN17 (phong 1, cho 9)
+Phut 140
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 141
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 142
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 143
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 144
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=1, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 145
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=0, cho uu tien=2, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 146
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN116, ket thuc=147
+Phut 147
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN23, ket thuc=148
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=3, dang kham=BN154, ket thuc=153
+Hoan tat: BN116 (phong 3)
+Goi kham: BN154 (phong 3, cho 34)
+Phut 148
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN17, ket thuc=149
+Phong 2 (Nhi): cho thuong=1, cho uu tien=1, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=3, dang kham=BN154, ket thuc=153
+Hoan tat: BN23 (phong 2)
+Goi kham: BN134 (phong 2, cho 3)
+Phut 149
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=1, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN154, ket thuc=153
+Hoan tat: BN17 (phong 1)
+Goi kham: BN143 (phong 1, cho 109)
+Phut 150
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN154, ket thuc=153
+Phut 151
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN154, ket thuc=153
+Phut 152
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN154, ket thuc=153
+Phut 153
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=3, dang kham=BN152, ket thuc=159
+Hoan tat: BN154 (phong 3)
+Goi kham: BN152 (phong 3, cho 4)
+Phut 154
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN152, ket thuc=159
+Phut 155
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=3, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN152, ket thuc=159
+Phut 156
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=3, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN152, ket thuc=159
+Phut 157
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN143, ket thuc=158
+Phong 2 (Nhi): cho thuong=1, cho uu tien=3, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=4, dang kham=BN152, ket thuc=159
+Phut 158
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN56, ket thuc=163
+Phong 2 (Nhi): cho thuong=1, cho uu tien=3, dang kham=BN134, ket thuc=159
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=4, dang kham=BN152, ket thuc=159
+Hoan tat: BN143 (phong 1)
+Goi kham: BN56 (phong 1, cho 90)
+Phut 159
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN56, ket thuc=163
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=3, dang kham=BN145, ket thuc=168
+Hoan tat: BN134 (phong 2)
+Hoan tat: BN152 (phong 3)
+Goi kham: BN145 (phong 3, cho 44)
+Goi kham: BN92 (phong 2, cho 19)
+Phut 160
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN56, ket thuc=163
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 161
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN56, ket thuc=163
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 162
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN56, ket thuc=163
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 163
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=3, dang kham=BN145, ket thuc=168
+Hoan tat: BN56 (phong 1)
+Goi kham: BN60 (phong 1, cho 79)
+Phut 164
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 165
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 166
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 167
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=1, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=3, dang kham=BN145, ket thuc=168
+Phut 168
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=2, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=2, dang kham=BN53, ket thuc=177
+Hoan tat: BN145 (phong 3)
+Goi kham: BN53 (phong 3, cho 42)
+Phut 169
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN60, ket thuc=170
+Phong 2 (Nhi): cho thuong=2, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=2, dang kham=BN53, ket thuc=177
+Phut 170
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=2, dang kham=BN92, ket thuc=171
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=2, dang kham=BN53, ket thuc=177
+Hoan tat: BN60 (phong 1)
+Goi kham: BN9 (phong 1, cho 45)
+Phut 171
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=2, dang kham=BN53, ket thuc=177
+Hoan tat: BN92 (phong 2)
+Goi kham: BN142 (phong 2, cho 21)
+Phut 172
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=2, dang kham=BN53, ket thuc=177
+Phut 173
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN53, ket thuc=177
+Phut 174
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN53, ket thuc=177
+Phut 175
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN9, ket thuc=176
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN53, ket thuc=177
+Phut 176
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN53, ket thuc=177
+Hoan tat: BN9 (phong 1)
+Goi kham: BN131 (phong 1, cho 26)
+Phut 177
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=2, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=1, dang kham=BN141, ket thuc=192
+Hoan tat: BN53 (phong 3)
+Goi kham: BN141 (phong 3, cho 48)
+Phut 178
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=1, dang kham=BN141, ket thuc=192
+Phut 179
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN141, ket thuc=192
+Phut 180
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=2, dang kham=BN141, ket thuc=192
+Phut 181
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN142, ket thuc=182
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 182
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=3, dang kham=BN141, ket thuc=192
+Hoan tat: BN142 (phong 2)
+Goi kham: BN81 (phong 2, cho 27)
+Phut 183
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 184
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 185
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 186
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 187
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 188
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN131, ket thuc=189
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 189
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Hoan tat: BN131 (phong 1)
+Goi kham: BN38 (phong 1, cho 34)
+Phut 190
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN81, ket thuc=191
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Phut 191
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN34, ket thuc=196
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=3, dang kham=BN141, ket thuc=192
+Hoan tat: BN81 (phong 2)
+Goi kham: BN34 (phong 2, cho 10)
+Phut 192
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN34, ket thuc=196
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Hoan tat: BN141 (phong 3)
+Goi kham: BN160 (phong 3, cho 38)
+Phut 193
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN34, ket thuc=196
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 194
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN34, ket thuc=196
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 195
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN34, ket thuc=196
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 196
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Hoan tat: BN34 (phong 2)
+Goi kham: BN170 (phong 2, cho 50)
+Phut 197
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN38, ket thuc=198
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 198
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=2, dang kham=BN160, ket thuc=202
+Hoan tat: BN38 (phong 1)
+Goi kham: BN47 (phong 1, cho 43)
+Phut 199
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 200
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=2, dang kham=BN160, ket thuc=202
+Phut 201
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN160, ket thuc=202
+Phut 202
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN64, ket thuc=215
+Hoan tat: BN160 (phong 3)
+Goi kham: BN64 (phong 3, cho 23)
+Phut 203
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN64, ket thuc=215
+Phut 204
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN47, ket thuc=205
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN64, ket thuc=215
+Phut 205
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN64, ket thuc=215
+Hoan tat: BN47 (phong 1)
+Goi kham: BN137 (phong 1, cho 5)
+Phut 206
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN64, ket thuc=215
+Phut 207
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 208
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN170, ket thuc=209
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 209
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Hoan tat: BN170 (phong 2)
+Goi kham: BN48 (phong 2, cho 11)
+Phut 210
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 211
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN137, ket thuc=212
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 212
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Hoan tat: BN137 (phong 1)
+Goi kham: BN119 (phong 1, cho 37)
+Phut 213
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 214
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=4, dang kham=BN64, ket thuc=215
+Phut 215
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=3, dang kham=BN171, ket thuc=228
+Hoan tat: BN64 (phong 3)
+Goi kham: BN171 (phong 3, cho 8)
+Phut 216
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN171, ket thuc=228
+Phut 217
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN171, ket thuc=228
+Phut 218
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN171, ket thuc=228
+Phut 219
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 220
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN48, ket thuc=221
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 221
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Hoan tat: BN48 (phong 2)
+Goi kham: BN43 (phong 2, cho 4)
+Phut 222
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 223
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN119, ket thuc=224
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 224
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Hoan tat: BN119 (phong 1)
+Goi kham: BN33 (phong 1, cho 6)
+Phut 225
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 226
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 227
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN43, ket thuc=228
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=4, dang kham=BN171, ket thuc=228
+Phut 228
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Hoan tat: BN171 (phong 3)
+Hoan tat: BN43 (phong 2)
+Goi kham: BN112 (phong 3, cho 47)
+Goi kham: BN180 (phong 2, cho 9)
+Phut 229
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 230
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 231
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 232
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 233
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN33, ket thuc=234
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 234
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=3, dang kham=BN112, ket thuc=243
+Hoan tat: BN33 (phong 1)
+Goi kham: BN139 (phong 1, cho 4)
+Phut 235
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 236
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 237
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 238
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 239
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 240
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN180, ket thuc=241
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN112, ket thuc=243
+Phut 241
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN139, ket thuc=242
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN112, ket thuc=243
+Hoan tat: BN180 (phong 2)
+Goi kham: BN59 (phong 2, cho 9)
+Phut 242
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN112, ket thuc=243
+Hoan tat: BN139 (phong 1)
+Goi kham: BN57 (phong 1, cho 7)
+Phut 243
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=2, dang kham=BN122, ket thuc=252
+Hoan tat: BN112 (phong 3)
+Goi kham: BN122 (phong 3, cho 42)
+Phut 244
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN122, ket thuc=252
+Phut 245
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN122, ket thuc=252
+Phut 246
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN122, ket thuc=252
+Phut 247
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN122, ket thuc=252
+Phut 248
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=4, dang kham=BN122, ket thuc=252
+Phut 249
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=4, dang kham=BN122, ket thuc=252
+Phut 250
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=4, dang kham=BN122, ket thuc=252
+Phut 251
+Phong 1 (Noi): cho thuong=4, cho uu tien=2, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=4, dang kham=BN122, ket thuc=252
+Phut 252
+Phong 1 (Noi): cho thuong=4, cho uu tien=2, dang kham=BN57, ket thuc=253
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN59, ket thuc=253
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Hoan tat: BN122 (phong 3)
+Goi kham: BN146 (phong 3, cho 50)
+Phut 253
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Hoan tat: BN59 (phong 2)
+Hoan tat: BN57 (phong 1)
+Goi kham: BN69 (phong 2, cho 13)
+Goi kham: BN31 (phong 1, cho 7)
+Phut 254
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Phut 255
+Phong 1 (Noi): cho thuong=4, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Phut 256
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Phut 257
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN146, ket thuc=258
+Phut 258
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=2, dang kham=BN37, ket thuc=270
+Hoan tat: BN146 (phong 3)
+Goi kham: BN37 (phong 3, cho 39)
+Phut 259
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 260
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 261
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN31, ket thuc=262
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 262
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN69, ket thuc=263
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Hoan tat: BN31 (phong 1)
+Goi kham: BN124 (phong 1, cho 11)
+Phut 263
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Hoan tat: BN69 (phong 2)
+Goi kham: BN25 (phong 2, cho 10)
+Phut 264
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 265
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 266
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 267
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 268
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN37, ket thuc=270
+Phut 269
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=4, dang kham=BN37, ket thuc=270
+Phut 270
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Hoan tat: BN37 (phong 3)
+Goi kham: BN41 (phong 3, cho 26)
+Phut 271
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN124, ket thuc=272
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN25, ket thuc=272
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 272
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Hoan tat: BN124 (phong 1)
+Hoan tat: BN25 (phong 2)
+Goi kham: BN61 (phong 2, cho 104)
+Goi kham: BN113 (phong 1, cho 4)
+Phut 273
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 274
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 275
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 276
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 277
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=3, dang kham=BN41, ket thuc=278
+Phut 278
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Hoan tat: BN41 (phong 3)
+Goi kham: BN140 (phong 3, cho 30)
+Phut 279
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 280
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 281
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 282
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN113, ket thuc=283
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 283
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN61, ket thuc=284
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Hoan tat: BN113 (phong 1)
+Goi kham: BN26 (phong 1, cho 106)
+Phut 284
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Hoan tat: BN61 (phong 2)
+Goi kham: BN104 (phong 2, cho 106)
+Phut 285
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 286
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 287
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 288
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 289
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN26, ket thuc=290
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 290
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=2, dang kham=BN140, ket thuc=293
+Hoan tat: BN26 (phong 1)
+Goi kham: BN46 (phong 1, cho 1)
+Phut 291
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 292
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=2, dang kham=BN140, ket thuc=293
+Phut 293
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Hoan tat: BN140 (phong 3)
+Goi kham: BN163 (phong 3, cho 34)
+Phut 294
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 295
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 296
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 297
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 298
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN104, ket thuc=299
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 299
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Hoan tat: BN104 (phong 2)
+Goi kham: BN80 (phong 2, cho 118)
+Phut 300
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 301
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 302
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 303
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN46, ket thuc=304
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 304
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN163, ket thuc=308
+Hoan tat: BN46 (phong 1)
+Goi kham: BN44 (phong 1, cho 99)
+Phut 305
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 306
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 307
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN163, ket thuc=308
+Phut 308
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Hoan tat: BN163 (phong 3)
+Goi kham: BN14 (phong 3, cho 39)
+Phut 309
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN44, ket thuc=310
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN80, ket thuc=310
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 310
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Hoan tat: BN80 (phong 2)
+Hoan tat: BN44 (phong 1)
+Goi kham: BN138 (phong 2, cho 118)
+Goi kham: BN164 (phong 1, cho 74)
+Phut 311
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 312
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 313
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 314
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 315
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN164, ket thuc=316
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN138, ket thuc=316
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 316
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Hoan tat: BN138 (phong 2)
+Hoan tat: BN164 (phong 1)
+Goi kham: BN159 (phong 2, cho 105)
+Goi kham: BN6 (phong 1, cho 67)
+Phut 317
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN14, ket thuc=320
+Phut 318
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN14, ket thuc=320
+Phut 319
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN14, ket thuc=320
+Phut 320
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN123, ket thuc=332
+Hoan tat: BN14 (phong 3)
+Goi kham: BN123 (phong 3, cho 2)
+Phut 321
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN123, ket thuc=332
+Phut 322
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN123, ket thuc=332
+Phut 323
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN6, ket thuc=324
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN123, ket thuc=332
+Phut 324
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN123, ket thuc=332
+Hoan tat: BN6 (phong 1)
+Goi kham: BN39 (phong 1, cho 4)
+Phut 325
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 326
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 327
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN159, ket thuc=328
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 328
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Hoan tat: BN159 (phong 2)
+Goi kham: BN168 (phong 2, cho 5)
+Phut 329
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 330
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 331
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN123, ket thuc=332
+Phut 332
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN118, ket thuc=339
+Hoan tat: BN123 (phong 3)
+Goi kham: BN118 (phong 3, cho 7)
+Phut 333
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN39, ket thuc=334
+Phong 2 (Nhi): cho thuong=3, cho uu tien=1, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN118, ket thuc=339
+Phut 334
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN168, ket thuc=335
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN118, ket thuc=339
+Hoan tat: BN39 (phong 1)
+Goi kham: BN150 (phong 1, cho 12)
+Phut 335
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN118, ket thuc=339
+Hoan tat: BN168 (phong 2)
+Goi kham: BN93 (phong 2, cho 5)
+Phut 336
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN118, ket thuc=339
+Phut 337
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN118, ket thuc=339
+Phut 338
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=2, dang kham=BN118, ket thuc=339
+Phut 339
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN107, ket thuc=351
+Hoan tat: BN118 (phong 3)
+Goi kham: BN107 (phong 3, cho 6)
+Phut 340
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 341
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 342
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN93, ket thuc=343
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 343
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Hoan tat: BN93 (phong 2)
+Goi kham: BN19 (phong 2, cho 9)
+Phut 344
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 345
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 346
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 347
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN150, ket thuc=348
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 348
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Hoan tat: BN150 (phong 1)
+Goi kham: BN65 (phong 1, cho 13)
+Phut 349
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 350
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=1, dang kham=BN107, ket thuc=351
+Phut 351
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=4, cho uu tien=2, dang kham=BN19, ket thuc=352
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Hoan tat: BN107 (phong 3)
+Goi kham: BN157 (phong 3, cho 13)
+Phut 352
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=4, cho uu tien=1, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Hoan tat: BN19 (phong 2)
+Goi kham: BN67 (phong 2, cho 2)
+Phut 353
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 354
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 355
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 356
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 357
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 358
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN65, ket thuc=359
+Phong 2 (Nhi): cho thuong=5, cho uu tien=2, dang kham=BN67, ket thuc=359
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 359
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Hoan tat: BN65 (phong 1)
+Hoan tat: BN67 (phong 2)
+Goi kham: BN175 (phong 2, cho 19)
+Goi kham: BN98 (phong 1, cho 4)
+Phut 360
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 361
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=5, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 362
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 363
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN157, ket thuc=364
+Phut 364
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN106, ket thuc=377
+Hoan tat: BN157 (phong 3)
+Goi kham: BN106 (phong 3, cho 313)
+Phut 365
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 366
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 367
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=2, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 368
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=2, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 369
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=2, dang kham=BN175, ket thuc=370
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 370
+Phong 1 (Noi): cho thuong=2, cho uu tien=3, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Hoan tat: BN175 (phong 2)
+Goi kham: BN27 (phong 2, cho 15)
+Phut 371
+Phong 1 (Noi): cho thuong=2, cho uu tien=3, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 372
+Phong 1 (Noi): cho thuong=2, cho uu tien=3, dang kham=BN98, ket thuc=373
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 373
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN161, ket thuc=378
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN106, ket thuc=377
+Hoan tat: BN98 (phong 1)
+Goi kham: BN161 (phong 1, cho 5)
+Phut 374
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN161, ket thuc=378
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 375
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN161, ket thuc=378
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN106, ket thuc=377
+Phut 376
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN161, ket thuc=378
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN27, ket thuc=377
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN106, ket thuc=377
+Phut 377
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN161, ket thuc=378
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN84, ket thuc=382
+Hoan tat: BN106 (phong 3)
+Hoan tat: BN27 (phong 2)
+Goi kham: BN8 (phong 2, cho 10)
+Goi kham: BN84 (phong 3, cho 1)
+Phut 378
+Phong 1 (Noi): cho thuong=2, cho uu tien=1, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN84, ket thuc=382
+Hoan tat: BN161 (phong 1)
+Goi kham: BN162 (phong 1, cho 8)
+Phut 379
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN84, ket thuc=382
+Phut 380
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN84, ket thuc=382
+Phut 381
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN84, ket thuc=382
+Phut 382
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN32, ket thuc=394
+Hoan tat: BN84 (phong 3)
+Goi kham: BN32 (phong 3, cho 287)
+Phut 383
+Phong 1 (Noi): cho thuong=2, cho uu tien=2, dang kham=BN162, ket thuc=384
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN32, ket thuc=394
+Phut 384
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN151, ket thuc=389
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN32, ket thuc=394
+Hoan tat: BN162 (phong 1)
+Goi kham: BN151 (phong 1, cho 48)
+Phut 385
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN151, ket thuc=389
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN32, ket thuc=394
+Phut 386
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN151, ket thuc=389
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN32, ket thuc=394
+Phut 387
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN151, ket thuc=389
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN32, ket thuc=394
+Phut 388
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN151, ket thuc=389
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN8, ket thuc=389
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=1, dang kham=BN32, ket thuc=394
+Phut 389
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN86, ket thuc=394
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN32, ket thuc=394
+Hoan tat: BN151 (phong 1)
+Hoan tat: BN8 (phong 2)
+Goi kham: BN153 (phong 2, cho 136)
+Goi kham: BN86 (phong 1, cho 10)
+Phut 390
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN86, ket thuc=394
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN32, ket thuc=394
+Phut 391
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN86, ket thuc=394
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN32, ket thuc=394
+Phut 392
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN86, ket thuc=394
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN32, ket thuc=394
+Phut 393
+Phong 1 (Noi): cho thuong=3, cho uu tien=1, dang kham=BN86, ket thuc=394
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=4, dang kham=BN32, ket thuc=394
+Phut 394
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Hoan tat: BN32 (phong 3)
+Hoan tat: BN86 (phong 1)
+Goi kham: BN94 (phong 3, cho 10)
+Goi kham: BN72 (phong 1, cho 1)
+Phut 395
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 396
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 397
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 398
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 399
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 400
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN153, ket thuc=401
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=3, dang kham=BN94, ket thuc=402
+Phut 401
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=3, dang kham=BN94, ket thuc=402
+Hoan tat: BN153 (phong 2)
+Goi kham: BN108 (phong 2, cho 2)
+Phut 402
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=2, dang kham=BN178, ket thuc=411
+Hoan tat: BN94 (phong 3)
+Goi kham: BN178 (phong 3, cho 13)
+Phut 403
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=2, dang kham=BN178, ket thuc=411
+Phut 404
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN72, ket thuc=405
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN178, ket thuc=411
+Phut 405
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN178, ket thuc=411
+Hoan tat: BN72 (phong 1)
+Goi kham: BN29 (phong 1, cho 149)
+Phut 406
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN178, ket thuc=411
+Phut 407
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN178, ket thuc=411
+Phut 408
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN178, ket thuc=411
+Phut 409
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN178, ket thuc=411
+Phut 410
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN178, ket thuc=411
+Phut 411
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN108, ket thuc=412
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN35, ket thuc=421
+Hoan tat: BN178 (phong 3)
+Goi kham: BN35 (phong 3, cho 4)
+Phut 412
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN35, ket thuc=421
+Hoan tat: BN108 (phong 2)
+Goi kham: BN49 (phong 2, cho 116)
+Phut 413
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=2, dang kham=BN35, ket thuc=421
+Phut 414
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN35, ket thuc=421
+Phut 415
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN35, ket thuc=421
+Phut 416
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN35, ket thuc=421
+Phut 417
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN35, ket thuc=421
+Phut 418
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN35, ket thuc=421
+Phut 419
+Phong 1 (Noi): cho thuong=5, cho uu tien=2, dang kham=BN29, ket thuc=420
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN35, ket thuc=421
+Phut 420
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN179, ket thuc=425
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN35, ket thuc=421
+Hoan tat: BN29 (phong 1)
+Goi kham: BN179 (phong 1, cho 10)
+Phut 421
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN179, ket thuc=425
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Hoan tat: BN35 (phong 3)
+Goi kham: BN115 (phong 3, cho 32)
+Phut 422
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN179, ket thuc=425
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Phut 423
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN179, ket thuc=425
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Phut 424
+Phong 1 (Noi): cho thuong=5, cho uu tien=1, dang kham=BN179, ket thuc=425
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Phut 425
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Hoan tat: BN179 (phong 1)
+Goi kham: BN16 (phong 1, cho 14)
+Phut 426
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN49, ket thuc=427
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Phut 427
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN115, ket thuc=428
+Hoan tat: BN49 (phong 2)
+Goi kham: BN87 (phong 2, cho 3)
+Phut 428
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN100, ket thuc=441
+Hoan tat: BN115 (phong 3)
+Goi kham: BN100 (phong 3, cho 35)
+Phut 429
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN100, ket thuc=441
+Phut 430
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN100, ket thuc=441
+Phut 431
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN16, ket thuc=432
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN100, ket thuc=441
+Phut 432
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN100, ket thuc=441
+Hoan tat: BN16 (phong 1)
+Goi kham: BN11 (phong 1, cho 143)
+Phut 433
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN100, ket thuc=441
+Phut 434
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN100, ket thuc=441
+Phut 435
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN100, ket thuc=441
+Phut 436
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN100, ket thuc=441
+Phut 437
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN87, ket thuc=438
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN100, ket thuc=441
+Phut 438
+Phong 1 (Noi): cho thuong=7, cho uu tien=1, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN100, ket thuc=441
+Hoan tat: BN87 (phong 2)
+Goi kham: BN126 (phong 2, cho 129)
+Phut 439
+Phong 1 (Noi): cho thuong=7, cho uu tien=1, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN100, ket thuc=441
+Phut 440
+Phong 1 (Noi): cho thuong=7, cho uu tien=1, dang kham=BN11, ket thuc=441
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN100, ket thuc=441
+Phut 441
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN105, ket thuc=446
+Hoan tat: BN11 (phong 1)
+Hoan tat: BN100 (phong 3)
+Goi kham: BN105 (phong 3, cho 27)
+Goi kham: BN169 (phong 1, cho 3)
+Phut 442
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN105, ket thuc=446
+Phut 443
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN105, ket thuc=446
+Phut 444
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN105, ket thuc=446
+Phut 445
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=5, dang kham=BN105, ket thuc=446
+Phut 446
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Hoan tat: BN105 (phong 3)
+Goi kham: BN117 (phong 3, cho 27)
+Phut 447
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 448
+Phong 1 (Noi): cho thuong=8, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 449
+Phong 1 (Noi): cho thuong=8, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 450
+Phong 1 (Noi): cho thuong=8, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 451
+Phong 1 (Noi): cho thuong=9, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 452
+Phong 1 (Noi): cho thuong=9, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN126, ket thuc=453
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 453
+Phong 1 (Noi): cho thuong=9, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Hoan tat: BN126 (phong 2)
+Goi kham: BN176 (phong 2, cho 119)
+Phut 454
+Phong 1 (Noi): cho thuong=9, cho uu tien=1, dang kham=BN169, ket thuc=455
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 455
+Phong 1 (Noi): cho thuong=9, cho uu tien=0, dang kham=BN127, ket thuc=460
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Hoan tat: BN169 (phong 1)
+Goi kham: BN127 (phong 1, cho 7)
+Phut 456
+Phong 1 (Noi): cho thuong=9, cho uu tien=0, dang kham=BN127, ket thuc=460
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 457
+Phong 1 (Noi): cho thuong=9, cho uu tien=0, dang kham=BN127, ket thuc=460
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=4, dang kham=BN117, ket thuc=458
+Phut 458
+Phong 1 (Noi): cho thuong=9, cho uu tien=0, dang kham=BN127, ket thuc=460
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN45, ket thuc=463
+Hoan tat: BN117 (phong 3)
+Goi kham: BN45 (phong 3, cho 38)
+Phut 459
+Phong 1 (Noi): cho thuong=9, cho uu tien=0, dang kham=BN127, ket thuc=460
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN45, ket thuc=463
+Phut 460
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN45, ket thuc=463
+Hoan tat: BN127 (phong 1)
+Goi kham: BN177 (phong 1, cho 76)
+Phut 461
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=3, dang kham=BN45, ket thuc=463
+Phut 462
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN45, ket thuc=463
+Phut 463
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN176, ket thuc=464
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Hoan tat: BN45 (phong 3)
+Goi kham: BN121 (phong 3, cho 32)
+Phut 464
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Hoan tat: BN176 (phong 2)
+Goi kham: BN130 (phong 2, cho 8)
+Phut 465
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 466
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 467
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 468
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=6, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 469
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 470
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 471
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 472
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 473
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 474
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN177, ket thuc=475
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN121, ket thuc=475
+Phut 475
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=1, dang kham=BN130, ket thuc=476
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN18, ket thuc=487
+Hoan tat: BN177 (phong 1)
+Hoan tat: BN121 (phong 3)
+Goi kham: BN78 (phong 1, cho 78)
+Goi kham: BN18 (phong 3, cho 39)
+Phut 476
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Hoan tat: BN130 (phong 2)
+Goi kham: BN62 (phong 2, cho 9)
+Phut 477
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 478
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 479
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 480
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 481
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 482
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 483
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 484
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 485
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 486
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=3, dang kham=BN18, ket thuc=487
+Phut 487
+Phong 1 (Noi): cho thuong=8, cho uu tien=0, dang kham=BN78, ket thuc=488
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Hoan tat: BN18 (phong 3)
+Goi kham: BN82 (phong 3, cho 45)
+Phut 488
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Hoan tat: BN78 (phong 1)
+Goi kham: BN52 (phong 1, cho 84)
+Phut 489
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 490
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=7, cho uu tien=0, dang kham=BN62, ket thuc=491
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 491
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Hoan tat: BN62 (phong 2)
+Goi kham: BN66 (phong 2, cho 138)
+Phut 492
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 493
+Phong 1 (Noi): cho thuong=7, cho uu tien=0, dang kham=BN52, ket thuc=494
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 494
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN128, ket thuc=499
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Hoan tat: BN52 (phong 1)
+Goi kham: BN128 (phong 1, cho 88)
+Phut 495
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN128, ket thuc=499
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 496
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN128, ket thuc=499
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=2, dang kham=BN82, ket thuc=497
+Phut 497
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN128, ket thuc=499
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Hoan tat: BN82 (phong 3)
+Goi kham: BN55 (phong 3, cho 34)
+Phut 498
+Phong 1 (Noi): cho thuong=6, cho uu tien=0, dang kham=BN128, ket thuc=499
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 499
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Hoan tat: BN128 (phong 1)
+Goi kham: BN5 (phong 1, cho 68)
+Phut 500
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 501
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 502
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=6, cho uu tien=0, dang kham=BN66, ket thuc=503
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 503
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Hoan tat: BN66 (phong 2)
+Goi kham: BN148 (phong 2, cho 141)
+Phut 504
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 505
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 506
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=1, dang kham=BN55, ket thuc=507
+Phut 507
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Hoan tat: BN55 (phong 3)
+Goi kham: BN21 (phong 3, cho 31)
+Phut 508
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=5, cho uu tien=0, dang kham=BN148, ket thuc=509
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 509
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Hoan tat: BN148 (phong 2)
+Goi kham: BN50 (phong 2, cho 144)
+Phut 510
+Phong 1 (Noi): cho thuong=5, cho uu tien=0, dang kham=BN5, ket thuc=511
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 511
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Hoan tat: BN5 (phong 1)
+Goi kham: BN12 (phong 1, cho 76)
+Phut 512
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 513
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 514
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=4, cho uu tien=0, dang kham=BN50, ket thuc=515
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 515
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Hoan tat: BN50 (phong 2)
+Goi kham: BN79 (phong 2, cho 102)
+Phut 516
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=22, cho uu tien=0, dang kham=BN21, ket thuc=517
+Phut 517
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Hoan tat: BN21 (phong 3)
+Goi kham: BN120 (phong 3, cho 408)
+Phut 518
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 519
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 520
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 521
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 522
+Phong 1 (Noi): cho thuong=4, cho uu tien=0, dang kham=BN12, ket thuc=523
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 523
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Hoan tat: BN12 (phong 1)
+Goi kham: BN149 (phong 1, cho 87)
+Phut 524
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=21, cho uu tien=0, dang kham=BN120, ket thuc=525
+Phut 525
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Hoan tat: BN120 (phong 3)
+Goi kham: BN89 (phong 3, cho 403)
+Phut 526
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 527
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=3, cho uu tien=0, dang kham=BN79, ket thuc=528
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 528
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Hoan tat: BN79 (phong 2)
+Goi kham: BN95 (phong 2, cho 81)
+Phut 529
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 530
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 531
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 532
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 533
+Phong 1 (Noi): cho thuong=3, cho uu tien=0, dang kham=BN149, ket thuc=534
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=20, cho uu tien=0, dang kham=BN89, ket thuc=534
+Phut 534
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN70, ket thuc=539
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Hoan tat: BN89 (phong 3)
+Hoan tat: BN149 (phong 1)
+Goi kham: BN109 (phong 3, cho 376)
+Goi kham: BN70 (phong 1, cho 93)
+Phut 535
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN70, ket thuc=539
+Phong 2 (Nhi): cho thuong=2, cho uu tien=0, dang kham=BN95, ket thuc=536
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 536
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN70, ket thuc=539
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Hoan tat: BN95 (phong 2)
+Goi kham: BN129 (phong 2, cho 81)
+Phut 537
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN70, ket thuc=539
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 538
+Phong 1 (Noi): cho thuong=2, cho uu tien=0, dang kham=BN70, ket thuc=539
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 539
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Hoan tat: BN70 (phong 1)
+Goi kham: BN125 (phong 1, cho 88)
+Phut 540
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 541
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 542
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=1, cho uu tien=0, dang kham=BN129, ket thuc=543
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 543
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Hoan tat: BN129 (phong 2)
+Goi kham: BN58 (phong 2, cho 74)
+Phut 544
+Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN125, ket thuc=545
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 545
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Hoan tat: BN125 (phong 1)
+Goi kham: BN101 (phong 1, cho 66)
+Phut 546
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 547
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 548
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=19, cho uu tien=0, dang kham=BN109, ket thuc=549
+Phut 549
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Hoan tat: BN109 (phong 3)
+Goi kham: BN24 (phong 3, cho 386)
+Phut 550
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 551
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 552
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 553
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 554
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 555
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=18, cho uu tien=0, dang kham=BN24, ket thuc=556
+Phut 556
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=BN58, ket thuc=557
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Hoan tat: BN24 (phong 3)
+Goi kham: BN172 (phong 3, cho 390)
+Phut 557
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=BN101, ket thuc=558
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Hoan tat: BN58 (phong 2)
+Phut 558
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Hoan tat: BN101 (phong 1)
+Phut 559
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 560
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 561
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 562
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 563
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 564
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 565
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 566
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 567
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 568
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=17, cho uu tien=0, dang kham=BN172, ket thuc=569
+Phut 569
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Hoan tat: BN172 (phong 3)
+Goi kham: BN51 (phong 3, cho 396)
+Phut 570
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 571
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 572
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 573
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 574
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 575
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 576
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 577
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=16, cho uu tien=0, dang kham=BN51, ket thuc=578
+Phut 578
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Hoan tat: BN51 (phong 3)
+Goi kham: BN22 (phong 3, cho 393)
+Phut 579
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 580
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 581
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 582
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 583
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 584
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 585
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 586
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 587
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=15, cho uu tien=0, dang kham=BN22, ket thuc=588
+Phut 588
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Hoan tat: BN22 (phong 3)
+Goi kham: BN144 (phong 3, cho 390)
+Phut 589
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 590
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 591
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 592
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 593
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 594
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 595
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 596
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 597
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 598
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 599
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 600
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 601
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 602
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=14, cho uu tien=0, dang kham=BN144, ket thuc=603
+Phut 603
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Hoan tat: BN144 (phong 3)
+Goi kham: BN1 (phong 3, cho 387)
+Phut 604
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 605
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 606
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 607
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 608
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 609
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 610
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 611
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 612
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=13, cho uu tien=0, dang kham=BN1, ket thuc=613
+Phut 613
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Hoan tat: BN1 (phong 3)
+Goi kham: BN114 (phong 3, cho 379)
+Phut 614
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Phut 615
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Phut 616
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Phut 617
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Phut 618
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=12, cho uu tien=0, dang kham=BN114, ket thuc=619
+Phut 619
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Hoan tat: BN114 (phong 3)
+Goi kham: BN63 (phong 3, cho 382)
+Phut 620
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 621
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 622
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 623
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 624
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 625
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 626
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=11, cho uu tien=0, dang kham=BN63, ket thuc=627
+Phut 627
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Hoan tat: BN63 (phong 3)
+Goi kham: BN83 (phong 3, cho 389)
+Phut 628
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 629
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 630
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 631
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 632
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 633
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 634
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=10, cho uu tien=0, dang kham=BN83, ket thuc=635
+Phut 635
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Hoan tat: BN83 (phong 3)
+Goi kham: BN42 (phong 3, cho 358)
+Phut 636
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 637
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 638
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 639
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 640
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 641
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=9, cho uu tien=0, dang kham=BN42, ket thuc=642
+Phut 642
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Hoan tat: BN42 (phong 3)
+Goi kham: BN4 (phong 3, cho 354)
+Phut 643
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 644
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 645
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 646
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 647
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 648
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 649
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 650
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 651
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 652
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 653
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 654
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=8, cho uu tien=0, dang kham=BN4, ket thuc=655
+Phut 655
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Hoan tat: BN4 (phong 3)
+Goi kham: BN15 (phong 3, cho 352)
+Phut 656
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Phut 657
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Phut 658
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Phut 659
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Phut 660
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=7, cho uu tien=0, dang kham=BN15, ket thuc=661
+Phut 661
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Hoan tat: BN15 (phong 3)
+Goi kham: BN135 (phong 3, cho 319)
+Phut 662
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Phut 663
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Phut 664
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Phut 665
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Phut 666
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=6, cho uu tien=0, dang kham=BN135, ket thuc=667
+Phut 667
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Hoan tat: BN135 (phong 3)
+Goi kham: BN156 (phong 3, cho 301)
+Phut 668
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 669
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 670
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 671
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 672
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 673
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 674
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 675
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 676
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 677
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 678
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 679
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 680
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=5, cho uu tien=0, dang kham=BN156, ket thuc=681
+Phut 681
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Hoan tat: BN156 (phong 3)
+Goi kham: BN85 (phong 3, cho 307)
+Phut 682
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 683
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 684
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 685
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 686
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 687
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=4, cho uu tien=0, dang kham=BN85, ket thuc=688
+Phut 688
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Hoan tat: BN85 (phong 3)
+Goi kham: BN103 (phong 3, cho 305)
+Phut 689
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 690
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 691
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 692
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 693
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 694
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=3, cho uu tien=0, dang kham=BN103, ket thuc=695
+Phut 695
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Hoan tat: BN103 (phong 3)
+Goi kham: BN173 (phong 3, cho 295)
+Phut 696
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Phut 697
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Phut 698
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Phut 699
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Phut 700
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=2, cho uu tien=0, dang kham=BN173, ket thuc=701
+Phut 701
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Hoan tat: BN173 (phong 3)
+Goi kham: BN97 (phong 3, cho 297)
+Phut 702
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 703
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 704
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 705
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 706
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 707
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 708
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 709
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 710
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 711
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 712
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=1, cho uu tien=0, dang kham=BN97, ket thuc=713
+Phut 713
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Hoan tat: BN97 (phong 3)
+Goi kham: BN166 (phong 3, cho 251)
+Phut 714
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 715
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 716
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 717
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 718
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 719
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 720
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 721
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 722
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=BN166, ket thuc=723
+Phut 723
+Phong 1 (Noi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 2 (Nhi): cho thuong=0, cho uu tien=0, dang kham=khong
+Phong 3 (Ngoai): cho thuong=0, cho uu tien=0, dang kham=khong
+Hoan tat: BN166 (phong 3)

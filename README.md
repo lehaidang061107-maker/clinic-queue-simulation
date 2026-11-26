@@ -128,6 +128,7 @@ make test-asan       # AddressSanitizer: cần Linux/WSL (xem bảng dưới)
 | Máy | Compiler | Kết quả |
 | --- | --- | --- |
 | macOS 26.5 arm64 (Leader, 26/11/2026, sau G4 và khôi phục phần B) | Apple clang 16.0.0, GNU Make 3.81 | `make` không cảnh báo; `test-all` đạt; `test-console` 25/25; `leaks` 0 rò rỉ; UBSan không lỗi. `test-asan` **không chạy được**: ASan dừng ngay lúc khởi động (lỗi toolchain, chưa chạy tới code nhóm) |
+| macOS 26.5 arm64 (Leader, 26/11/2026, sau tối ưu G5) | Apple clang 16.0.0, GNU Make 3.81 | `make` không cảnh báo; `test-all` 30 nhóm PASS (thêm test chen tiếp nhận và ngày 10.000 người); `test-leader-isolated` đạt; `test-console` 25/25; `comparison.txt` và `log_1phong_uutien.txt` sinh lại trùng từng byte; `leaks` 0 rò rỉ; UBSan không lỗi |
 | Windows (G4 C, trước khi gộp A/B) | MSYS2 GCC 16.2.0, Git Bash | Bốn unit test biên dịch tay đạt; `test-console` 22/22. `make` chưa có trong PATH |
 | Windows (G4 A, MSYS2 UCRT64) | GCC, `mingw32-make` | `test-a` và `test-console` đạt |
 | Windows, `develop` sau G4 | — | **Chưa chạy** (C làm ở mốc 0 giai đoạn 5) |
@@ -242,5 +243,5 @@ Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN01, ket thuc=5
 - Giai đoạn 2: [tổng quan](docs/04_Tong_quan_giai_doan_2.md), [phân công](docs/05_Phan_cong_giai_doan_2.md), bàn giao trong `docs/Giai Doan 2/`
 - Giai đoạn 3: [tổng quan](docs/06_Tong_quan_giai_doan_3.md), [phân công](docs/07_Phan_cong_giai_doan_3.md), bàn giao trong `docs/Giai Doan 3/`
 - Giai đoạn 4: [tổng quan](docs/08_Tong_quan_giai_doan_4.md), [phân công](docs/09_Phan_cong_giai_doan_4.md), bàn giao trong `docs/Giai Doan 4/`, [nháp Mô phỏng](docs/Giai%20Doan%204/G4_Leader_Mo_phong_nhap.md)
-- Giai đoạn 5: [tổng quan](docs/11_Tong_quan_giai_doan_5.md), [phân công](docs/12_Phan_cong_giai_doan_5.md)
+- Giai đoạn 5: [tổng quan](docs/11_Tong_quan_giai_doan_5.md), [phân công](docs/12_Phan_cong_giai_doan_5.md), bàn giao trong `docs/Giai Doan 5/`
 - [Quy trình Git cho thành viên](MEMBER_GIT_WORKFLOW.md)

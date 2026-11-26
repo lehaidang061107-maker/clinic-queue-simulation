@@ -22,33 +22,7 @@ Thứ tự cố định trong phút `m`:
 
 ## 3. Độ phức tạp
 
-Ký hiệu: `N` bệnh nhân, `R` phòng, `q` độ dài hàng của một phòng, `T` số phút mô phỏng (từ 0 đến phút kết thúc ngày).
-
-| Thao tác | Thời gian | Ghi chú |
-|---|---|---|
-| Hoàn tất ca (bước 1) | O(R) | Mỗi phòng kiểm một lần |
-| Tìm người đến (bước 2) | O(N) mỗi phút | Duyệt cả kho dù chỉ vài người đến |
-| Chọn phòng cho một người | O(R) | Duyệt các phòng cùng khoa |
-| Đưa vào FIFO / heap | O(1) / O(log q) | Heap tăng mảng thì O(q), khấu hao O(1) |
-| Gọi khám từ heap / FIFO | O(log q) / O(1) | |
-| `isFinished()` mỗi bước | O(N + R) | Duyệt kho kiểm còn ai chưa xong |
-| **Cả ngày** | **O(T·(N + R) + N·(R + log q))** | Phần `T·N` chiếm ưu thế |
-
-Bộ nhớ: kho O(N) nút; mỗi phòng giữ con trỏ, tổng O(N); thống kê O(R). Không sao chép bệnh nhân.
-
-Vì vậy **không thể nói toàn chương trình là O(log n)** chỉ vì có dùng heap. Heap chỉ làm cho một lần gọi khám tốn O(log q). Chi phí lớn nhất là mỗi phút duyệt lại toàn bộ kho để tìm người đến và kiểm tra kết thúc.
-
-Đo nhanh (một lần chạy, chưa lặp; tắt in từng phút; 1 phòng/khoa, bật ưu tiên; dữ liệu từ menu 2 seed 2026; tính cả thời gian sinh dữ liệu):
-
-| N | Thời gian thực |
-|---|---|
-| 2.500 | 0,42 s |
-| 5.000 | 0,97 s |
-| 10.000 | 3,81 s |
-
-N tăng gấp đôi thì thời gian tăng khoảng 2,3–3,9 lần. Lý do: khi chỉ có 1 phòng/khoa, phút kết thúc ngày `T` cũng tăng theo `N`, nên phần `T·N` tăng gần theo bình phương. Giai đoạn 5 sẽ đo lại đúng quy trình (lặp nhiều lần, tách thời gian sinh dữ liệu).
-
-Nếu cần nhanh hơn, có thể giữ một con trỏ chạy dọc kho (kho đã sắp theo phút đến) và đếm số người chưa xong thay vì duyệt lại. Khi đó bước 2 và `isFinished` giảm còn O(1) khấu hao mỗi phút, và cả ngày còn O(T·R + N·(R + log q)). Chưa sửa trong giai đoạn 4 để giữ nguyên mã đã kiểm chứng; quyết định sau khi có số đo giai đoạn 5.
+Đã cập nhật ở giai đoạn 5 (con trỏ duyệt người đến, bộ đếm hoàn tất): xem [nháp Độ phức tạp và hiệu năng](../Giai%20Doan%205/G5_Leader_Do_phuc_tap_nhap.md). Bản G4 (duyệt lại cả kho mỗi phút, O(T·(N + R) + N·(R + log q))) không còn đúng với mã hiện tại.
 
 ## 4. Vì sao 2 phòng bật/tắt ưu tiên có lúc cho kết quả giống hệt
 

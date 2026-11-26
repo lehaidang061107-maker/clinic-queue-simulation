@@ -200,7 +200,8 @@ void captureComparisonRow(const Simulation& simulation, const std::string& name,
     for (int level = 0; level < kPriorityCount; ++level) {
         row.byPriority[level] = statistics.byPriority(static_cast<Priority>(level));
     }
-    row.hasAverageWait = statistics.averageWait(row.averageWait);
+    row.hasAverageWait = statistics.totalStartedCount() > 0;
+    row.averageWait = statistics.averageWait();
     row.maxSystemWaiting = statistics.maxSystemWaiting();
     row.finishMinute = simulation.lastFinishMinute();
     row.started = 0;

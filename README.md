@@ -122,6 +122,7 @@ make                 # build/clinic_simulator
 make test-all        # test-a, test-b, test-c, test-leader với mô-đun thật
 make test-console    # các kịch bản menu trong tests/console/
 make test-asan       # AddressSanitizer: cần Linux/WSL (xem bảng dưới)
+make bench MACHINE=macos   # đo hiệu năng (-O2), ghi results/bench_macos.csv; bench-quick để thử nhanh
 ./build/clinic_simulator
 ```
 

@@ -21,7 +21,7 @@ public:
     // Xu ly tron phut nextMinute: finish -> arrivals -> start -> snapshot.
     // true: da xu ly 1 phut; false: chua initialize hoac da ket thuc.
     bool step();
-    bool isFinished() const; // Da dong tiep nhan va khong con nguoi chua den/cho/dang kham.
+    bool isFinished() const; // Da dong tiep nhan va khong con nguoi chua den/cho/dang kham. O(R).
     int nextMinute() const;
     int lastProcessedMinute() const; // -1 truoc buoc dau.
     // Phut ket thuc ngay: finishTime lon nhat cua nguoi da kham xong; -1 neu chua ai xong.
@@ -39,8 +39,12 @@ private:
     int nextMinute_;
     bool initialized_;
     Statistics statistics_;
+    // Nut cuoi cung co arrivalTime < phut dang xu ly (nullptr: chua qua nut nao).
+    // Kho sap theo (arrival,ticket) nen duyet tu day thay vi tu dau kho moi phut.
+    // admit() chen nguoi moi (arrival = nextMinute) luon sau nut nay. Dat lai khi initialize.
+    PatientStore::Node* arrivalCursor_;
     int selectRoom(int specialtyId) const;
-    void assignArrivals(int minute); // Xep nguoi NotArrived co arrivalTime == minute.
+    void assignArrivals(int minute); // Xep nguoi NotArrived co arrivalTime == minute. Khau hao O(so nguoi den).
     void observeAllQueues();
 };
 } // namespace clinic

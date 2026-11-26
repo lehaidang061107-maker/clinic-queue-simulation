@@ -224,6 +224,38 @@ void immediateAdmission() {
     assert(mixed.findById("F1")->assignedRoomId == 1 && mixed.findById("M1")->assignedRoomId == 2);
     std::cout << "PASS immediate room assignment on admit, room ties, emergency while busy\n";
 }
+// Con tro duyet nguoi den: tiep nhan chen nguoi vao giua kho (truoc nguoi da co san, nhieu nguoi
+// cung phut, giua cac buoc) khong duoc bo sot ai va khong lam ai bi xep hai lan.
+void admissionBeforeLaterArrivals() {
+    std::string error;
+    PatientStore store;
+    add(store, input("F1", 1, 5)); add(store, input("F2", 2, 5)); add(store, input("F3", 3, 9));
+    Simulation sim(store);
+    assert(sim.initialize({}, error));
+    assert(sim.step() && sim.step());                              // Phut 0, 1: con tro con o dau kho.
+    assert(sim.admit("A1", "Name", 30, false, 1, 5, error));       // Phut 2, chen truoc F1.
+    assert(sim.admit("A2", "Name", 30, false, 1, 5, error));       // Cung phut, giua hai lan goi.
+    assert(sim.step() && sim.step());                              // Xu ly phut 2, 3: con tro da qua A1, A2.
+    assert(sim.admit("A3", "Name", 30, false, 1, 5, error));       // Phut 4, chen sau con tro, truoc F1.
+    assert(store.findById("A3")->status == PatientStatus::Waiting);
+    int steps = 0;
+    while (sim.step()) assert(++steps < 2000);
+    assert(sim.isFinished() && sim.statistics().completedCount() == 6);
+    const char* ids[] = {"F1", "F2", "F3", "A1", "A2", "A3"};
+    for (const char* id : ids) {
+        const Patient* p = store.findById(id);
+        assert(p && p->status == PatientStatus::Completed && p->startTime >= p->input.arrivalTime);
+        assert(p->finishTime == p->startTime + p->input.serviceDuration);
+    }
+    // Chay lai: con tro duoc dat lai, ket qua giong lan dau.
+    const int firstEnd = sim.lastProcessedMinute();
+    assert(sim.initialize({}, error));
+    steps = 0;
+    while (sim.step()) assert(++steps < 2000);
+    assert(sim.isFinished() && sim.lastProcessedMinute() == firstEnd);
+    assert(store.findById("F1")->assignedRoomId == 1 && store.findById("A3")->assignedRoomId == 1);
+    std::cout << "PASS admit between steps before later arrivals, no missed or double assignment\n";
+}
 }
 #ifndef LEADER_ISOLATED_TEST
 // ---- Giai doan 4: bat bien tren ca ngay, bo sinh seed 2026 (giong data/patients_day.txt) ----
@@ -318,6 +350,19 @@ void fullDay() {
     assert(emptySim.lastFinishMinute() == -1 && emptySim.lastProcessedMinute() == 479);
     std::cout << "PASS full day 180 patients x 4 configs: counts, times, rooms, no overlap, order, stats\n";
 }
+// Bo lon 10.000 nguoi (G5): bat bien nhu ngay 180 nguoi o ca 4 cau hinh, de chung minh
+// toi uu duyet kho khong doi ket qua o quy mo lon.
+void largeDay() {
+    PatientStore store; generateDay(store, 10000);
+    Simulation sim(store);
+    for (int rooms = 1; rooms <= 2; ++rooms) {
+        for (int priority = 1; priority >= 0; --priority) {
+            runDay(sim, store, rooms, priority == 1);
+            checkDayInvariants(sim, store, priority == 1);
+        }
+    }
+    std::cout << "PASS large day 10000 patients x 4 configs: counts, times, rooms, no overlap, order, stats\n";
+}
 // Neu khong co lan goi nao vuot nguoi den truoc thi lich bat uu tien trung lich FIFO:
 // moi phut cung trang thai, chon phong chi phu thuoc so cho, nen ket qua trung tung nguoi.
 void overtakeExplanation() {
@@ -352,8 +397,9 @@ extern bool failNextStatisticsResetForLeaderTest;
 #endif
 int main() {
     validators(); scenarios(); arrivalsAndLifecycle(); admissionAndOverflow(); immediateAdmission();
+    admissionBeforeLaterArrivals();
 #ifndef LEADER_ISOLATED_TEST
-    fullDay(); overtakeExplanation();
+    fullDay(); overtakeExplanation(); largeDay();
 #endif
 #ifdef LEADER_ISOLATED_TEST
     PatientStore store; add(store, input("P", 1));

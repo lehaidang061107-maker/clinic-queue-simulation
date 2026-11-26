@@ -6,7 +6,8 @@
 
 namespace clinic {
 Simulation::Simulation(PatientStore& store)
-    : store_(store), rooms_(nullptr), roomCount_(0), nextMinute_(0), initialized_(false) {}
+    : store_(store), rooms_(nullptr), roomCount_(0), nextMinute_(0), initialized_(false),
+      arrivalCursor_(nullptr) {}
 
 Simulation::~Simulation() { delete[] rooms_; }
 
@@ -41,6 +42,7 @@ bool Simulation::initialize(const SimulationConfig& config, std::string& error) 
         store_.resetStates();
         config_ = config;
         nextMinute_ = 0;
+        arrivalCursor_ = nullptr;
         initialized_ = true;
         error.clear();
         return true;
@@ -112,10 +114,16 @@ int Simulation::selectRoom(int specialtyId) const {
 
 void Simulation::assignArrivals(int minute) {
     // C maintains (arrival, ticket) order, also when admitting between steps.
-    for (PatientStore::Node* node = store_.head_; node; node = node->next) {
+    // Buoc qua cac nut den truoc `minute` (da xu ly o phut cua chung), roi xep cac nut
+    // den dung `minute`. Moi nut bi buoc qua dung mot lan trong ca ngay.
+    PatientStore::Node* node = arrivalCursor_ ? arrivalCursor_->next : store_.head_;
+    while (node && node->patient.input.arrivalTime < minute) {
+        arrivalCursor_ = node;
+        node = node->next;
+    }
+    for (; node && node->patient.input.arrivalTime == minute; node = node->next) {
         Patient& patient = node->patient;
-        if (patient.status != PatientStatus::NotArrived || patient.input.arrivalTime != minute)
-            continue;
+        if (patient.status != PatientStatus::NotArrived) continue;
         const int index = selectRoom(patient.input.specialtyId);
         rooms_[index].enqueue(&patient, config_.usePriority);
         patient.assignedRoomId = rooms_[index].id();
@@ -153,8 +161,9 @@ bool Simulation::step() {
 
 bool Simulation::isFinished() const {
     if (!initialized_ || nextMinute_ < config_.closingTime) return false;
-    for (const PatientStore::Node* node = store_.head_; node; node = node->next)
-        if (node->patient.status != PatientStatus::Completed) return false;
+    // Moi nguoi duoc recordCompletion dung mot lan khi hoan tat, nen "tat ca Completed"
+    // tuong duong voi so hoan tat == so nguoi trong kho; khong can duyet kho.
+    if (statistics_.completedCount() != store_.size()) return false;
     for (int i = 0; i < roomCount_; ++i)
         if (rooms_[i].isBusy() || rooms_[i].waitingCount() != 0) return false;
     return true;

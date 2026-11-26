@@ -8,7 +8,7 @@ Theo mục Leader của [phân công giai đoạn 5](../12_Phan_cong_giai_doan_5
 
 | # | Việc | Trạng thái |
 |---|---|---|
-| 1 | Duyệt `make bench` của B | **Chờ B** (chưa có `tests/bench.cpp`) |
+| 1 | Duyệt `make bench` của B | **Xong**: Leader viết hộ ở PR #37 (`-O2`, tắt in từng phút và nhật ký, tách thời gian sinh dữ liệu); số đo "trước" ở `results/bench_macos-truoc-toi-uu.csv` |
 | 2 | Quyết định và cài tối ưu | **Xong** |
 | 3 | Nháp Độ phức tạp và hiệu năng | **Xong**, số đo chính thức chờ B |
 | 4 | Cập nhật bảng môi trường README | Dòng macOS đã cập nhật; dòng Windows và Linux/WSL **chờ C** |
@@ -54,7 +54,7 @@ make test-console
 
 ## 4. Lỗi còn lại và việc chờ người khác
 
-- **B:** viết `make bench`, đo lại bằng `-O2` để có bảng trước/sau chính thức (bản "trước" là commit `08345d0`). Số của Leader chỉ dùng để quyết định tối ưu, không đưa vào báo cáo.
+- **B:** sau khi #36 merge, chạy `make bench MACHINE=macos` để có số "sau" và so với `bench_macos-truoc-toi-uu.csv` (commit `08345d0`); vẽ biểu đồ và viết nhận xét. Số đo tạm trong nháp §3 chỉ dùng để quyết định tối ưu, không đưa vào báo cáo.
 - **C:** Windows và ASan (WSL) ở mốc 0; sinh dữ liệu vẫn O(N²) trong `PatientStore::add` ([nháp §4](G5_Leader_Do_phuc_tap_nhap.md#4-chỗ-nghẽn-còn-lại)), nhóm quyết định có sửa hay không.
 - **Giới hạn của tối ưu:** `arrivalCursor_` giả định kho không bị xóa hay nạp lại khi phiên đang chạy mà chưa `initialize` lại. Điều này đã đúng sẵn với phòng và hàng đợi (giữ con trỏ tới bệnh nhân). `ConsoleUI` giữ được giả định: menu 1 (nạp) và menu 2 (sinh) từ chối khi phiên đã khởi tạo, và không có đường nào xóa kho giữa phiên.
 - ASan vẫn chưa chạy được trên máy macOS của Leader (lỗi toolchain lúc khởi động); thay bằng `leaks` và UBSan.

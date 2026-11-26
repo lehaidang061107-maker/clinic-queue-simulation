@@ -11,29 +11,33 @@
 
 ## Phủ dữ liệu mẫu
 
-| Yêu cầu | Có trong tệp |
-|---|---:|
-| Số bản ghi | 30 |
-| Chuyên khoa 1, 2, 3 | Có |
-| Mức ưu tiên 0, 1, 2 | Có |
-| Tuổi 0, 5, 6, 59, 60, 120 | Có |
+| Yêu cầu                       |          Có trong tệp |
+| ----------------------------- | --------------------: |
+| Số bản ghi                    |                    30 |
+| Chuyên khoa 1, 2, 3           |                    Có |
+| Mức ưu tiên 0, 1, 2           |                    Có |
+| Tuổi 0, 5, 6, 59, 60, 120     |                    Có |
 | Ít nhất 3 người đến cùng phút | Có (4 người ở phút 0) |
-| Đến phút 479 | Có |
-| Thời lượng 5–15 phút | Có |
+| Đến phút 479                  |                    Có |
+| Thời lượng 5–15 phút          |                    Có |
 
 ## Kiểm tra
 
-| Kiểm tra | Mong đợi | Thực tế |
-|---|---|---|
-| Kiểm tra cấu trúc dữ liệu mẫu/lỗi | 30 và 8 bản ghi; mẫu đủ 8 trường và thời lượng hợp lệ | Đạt |
-| `git diff --check` | Không có lỗi định dạng diff | Đạt |
-| `mingw32-make all test-c test-leader` | Build và test C/Leader đạt | Đạt trên Windows, MSYS2 GCC 16.2.0, GNU Make 4.4.1 |
-| `mingw32-make test-a test-b` | Test A/B đạt | Đạt trên cùng môi trường |
-| Kịch bản `c_first_run`, `c_invalid_mix`, `c_admit_retry` | Các đoạn đầu ra trong `.expected` xuất hiện | Đạt; chạy trong thư mục sandbox riêng |
-| Lưu/nạp lại qua hai lần chạy | Hai bệnh nhân được lưu, lần sau nạp lại đủ mã/ticket | Đạt trong sandbox; nạp lại 2 bệnh nhân |
+| Kiểm tra                                                 | Mong đợi                                              | Thực tế                                            |
+| -------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
+| Kiểm tra cấu trúc dữ liệu mẫu/lỗi                        | 30 và 8 bản ghi; mẫu đủ 8 trường và thời lượng hợp lệ | Đạt                                                |
+| `git diff --check`                                       | Không có lỗi định dạng diff                           | Đạt                                                |
+| `mingw32-make all test-c test-leader`                    | Build và test C/Leader đạt                            | Đạt trên Windows, MSYS2 GCC 16.2.0, GNU Make 4.4.1 |
+| `mingw32-make test-a test-b`                             | Test A/B đạt                                          | Đạt trên cùng môi trường                           |
+| Kịch bản `c_first_run`, `c_invalid_mix`, `c_admit_retry` | Các đoạn đầu ra trong `.expected` xuất hiện           | Đạt; chạy trong thư mục sandbox riêng              |
+| Lưu/nạp lại qua hai lần chạy                             | Hai bệnh nhân được lưu, lần sau nạp lại đủ mã/ticket  | Đạt trong sandbox; nạp lại 2 bệnh nhân             |
 
 ## Điểm cần phối hợp
 
 `Simulation::admit` hiện mới lưu bệnh nhân; phòng được gán khi `step()` xử lý phút đến. Vì vậy menu báo rõ phòng chưa phân thay vì tự tính/chọn phòng trong UI (tránh nhân đôi thuật toán phân phòng của Leader). Để in mã phòng ngay sau tiếp nhận như yêu cầu giai đoạn 3, cần Leader cập nhật luồng phân phòng hoặc giao diện `Simulation`.
 
 Chạy các kịch bản từ thư mục gốc. Xóa hoặc di chuyển `data/patients_working.txt` trước mỗi ca để bảo đảm trạng thái khởi đầu rỗng. Windows đã được kiểm tra; macOS và kiểm tra chéo của thành viên khác vẫn chờ thực hiện.
+
+## Kiểm tra chéo (Thành viên A - Mốc 0)
+
+- Đã chạy kiểm tra chéo các kịch bản `c_admit_retry`, `c_first_run`, `c_invalid_mix` trên môi trường Windows: cả 3 ca đều chạy đúng (`PASS`, trong tổng số `Console: 18 dat, 0 chua dat.`).

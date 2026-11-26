@@ -1,7 +1,0 @@
-1
-tests/data/format_example_2.txt
-9
-
-build/console/b_format_example_2_compare.txt
-0
-build/console/b_format_example_2_working.txt

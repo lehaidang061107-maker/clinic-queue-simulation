@@ -2,7 +2,7 @@
 
 Đề tài 6 — Mô phỏng hàng đợi khám bệnh bằng C++17, giao diện console trên Windows và macOS.
 
-**Hiện trạng (giai đoạn 3):** chương trình console chạy được từ menu với mô-đun thật của Leader/A/B/C. Tiếp nhận ở menu 4 tự cấp ticket, phút đến = phút hiện tại và xếp phòng ngay. `make`, `make test-all` và `make test-console` đã chạy đạt trên macOS 26.5 (arm64, Apple clang 16.0.0) ngày 23/11/2026. Theo bàn giao của C, build và test A/B/C/Leader cũng đạt trên Windows với MinGW-w64; Leader chưa tự chạy lại trên Windows. AddressSanitizer chưa chạy được trên máy macOS này (lỗi runtime ngay cả với chương trình rỗng), nên đã kiểm tra bộ nhớ thay bằng `leaks` và UBSan; xem `docs/Giai Doan 3/G3_Leader_Ban_giao.md`.
+**Hiện trạng:** giai đoạn 3 đã hoàn thành và được merge vào `develop`. Giai đoạn 4 đang triển khai: C đã bổ sung nhật ký từng phút, bảng so sánh menu 9 và dữ liệu ngày 180 bệnh nhân; kết quả chính thức nằm trong `results/`. Bàn giao phần C ghi rõ môi trường và các kiểm tra đã chạy.
 
 ## Mục tiêu
 
@@ -31,9 +31,11 @@ BN01|Nguyen Van An|30|2|1|1|0|5
 
 - `data/format_example.txt`: ví dụ 5 bệnh nhân.
 - `data/patients_sample.txt`: 30 bản ghi, phủ đủ khoa/mức ưu tiên, tuổi biên, nhiều người đến cùng phút và phút 479.
+- `data/patients_day.txt`: 180 bệnh nhân cho so sánh G4, sinh bằng menu 2 với seed 2026, giờ đóng 480 và thời lượng 5–15 phút.
 - `data/patients_large.txt`: dành cho thực nghiệm giai đoạn sau; hiện chưa có dữ liệu.
 - `data/patients_working.txt`: dự kiến lưu đầu vào khi lưu/thoát; mở lại là phiên mới.
-- `results/`: kết quả và số liệu thực nghiệm, lưu riêng với đầu vào.
+- `results/comparison.txt`: bảng so sánh 4 kịch bản trên `patients_day.txt`.
+- `results/log_1phong_uutien.txt`: nhật ký theo phút của kịch bản 1 phòng/khoa, bật ưu tiên.
 
 Dữ liệu sinh dùng seed để lặp lại được. Các kịch bản so sánh phải giữ nguyên đầu vào; chỉ ghi số liệu hiệu năng sau khi chạy đo thực tế.
 
@@ -84,7 +86,7 @@ make
 make test-c
 ```
 
-Chương trình nằm ở `build/clinic_simulator` (Windows: `build/clinic_simulator.exe`). Lần chạy đầu tự nạp `data/patients_working.txt` nếu tệp tồn tại; nếu chưa có thì bắt đầu với kho rỗng. Dùng mục 1 để nạp tệp khác, mục 2 để sinh dữ liệu, mục 3 để chọn cấu hình, mục 4–9 để tiếp nhận/chạy/xem/lưu/so sánh. Mục 0 lưu đầu vào vào `data/patients_working.txt` rồi thoát. Kết quả mô phỏng được lưu riêng trong `results/`.
+Chương trình nằm ở `build/clinic_simulator` (Windows: `build/clinic_simulator.exe`). Lần chạy đầu tự nạp `data/patients_working.txt` nếu tệp tồn tại; nếu chưa có thì bắt đầu với kho rỗng. Dùng mục 1 để nạp tệp khác, mục 2 để sinh dữ liệu, mục 3 để chọn cấu hình, mục 4–9 để tiếp nhận/chạy/xem/lưu/so sánh. Mục 6 có thể ghi nhật ký từng phút; mặc định lưu vào `results/log.txt`. Mục 9 chạy bốn cấu hình trên cùng dữ liệu, in bảng gộp và lưu mặc định vào `results/comparison.txt`; sau đó phiên được khởi tạo lại theo cấu hình đã chọn trước khi so sánh. Mục 0 lưu đầu vào vào `data/patients_working.txt` rồi thoát.
 
 Các kịch bản nhập menu nằm trong `tests/console/` (`<người>_<ca>.in` kèm `<người>_<ca>.expected`). Chúng giả định chạy từ thư mục gốc và kho phiên ban đầu rỗng. `make test-console` chạy tất cả: trước mỗi ca, script tạm cất `data/patients_working.txt` rồi trả lại khi xong, và kiểm tra từng dòng trong `.expected` có xuất hiện theo đúng thứ tự trong đầu ra. Đầu ra mỗi ca nằm ở `build/console/<ca>.out`. Muốn chạy một ca bằng tay thì xóa hoặc di chuyển `data/patients_working.txt` trước:
 
@@ -119,6 +121,7 @@ make test-console    # các kịch bản menu trong tests/console/
 | --- | --- | --- |
 | macOS 26.5 arm64 (Leader, 23/11/2026) | Apple clang 16.0.0, GNU Make 3.81 | `make`, `test-all`, `test-console` đạt |
 | Windows (theo bàn giao G3 của C) | MSYS2 GCC 16.2.0, GNU Make 4.4.1 | `mingw32-make` và test A/B/C/Leader đạt; Leader chưa tự chạy lại |
+| Windows (G4 C, checkout hiện tại) | MSYS2 GCC 16.2.0, Git Bash | Bốn unit test biên dịch/chạy đạt; `test-console`: 22/22. `make` chưa có trong PATH của môi trường này |
 
 Trên Windows chạy `mingw32-make` rồi `build\clinic_simulator.exe < tests\console\leader_three_priority.in`. `make test-console` cần `sh` (có sẵn trong Git Bash/MSYS2). `make test-asan` build với `-fsanitize=address` rồi chạy test-leader và bộ mẫu ở 4 cấu hình. Target này cần một toolchain có ASan chạy được.
 
@@ -205,6 +208,9 @@ Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN01, ket thuc=5
 
 ## Kế hoạch và tài liệu thiết kế
 
+- [Tổng quan giai đoạn 4](docs/08_Tong_quan_giai_doan_4.md)
+- [Phân công giai đoạn 4](docs/09_Phan_cong_giai_doan_4.md)
+- [Bàn giao giai đoạn 4 — C](docs/Giai%20Doan%204/G4_C_Ban_giao.md)
 - [Tổng quan giai đoạn 1](docs/02_Tong_quan_giai_doan_1.md)
 - [Phân công giai đoạn 1](docs/03_Phan_cong_giai_doan_1.md)
 - [Thiết kế Leader — mô phỏng và tích hợp](docs/Giai%20Doan%201/G1_Leader_Thiet_ke.md)

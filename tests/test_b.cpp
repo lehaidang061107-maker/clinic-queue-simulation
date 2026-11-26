@@ -144,6 +144,7 @@ void checkStatistics() {
     assert(pref.totalWait / pref.startedCount == 6); // trung binh 6
     assert(stats.completedCount() == 2);
 
+
     // Snapshot (3,0) roi (0,4): max he thong = 4, khong cong cuc dai rieng (7)
     stats.observeQueues(0, 3, 3);
     stats.observeQueues(1, 0, 3);

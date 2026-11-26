@@ -1,6 +1,4 @@
 #include "Statistics.h"
-#include <memory>
-#include <sstream>
 #include <stdexcept>
 
 namespace clinic {
@@ -73,22 +71,21 @@ void Statistics::reset(int roomCount) {
         throw std::invalid_argument("Statistics::reset: roomCount must be >= 0");
     }
 
-    // Cap phat mang moi truoc khi thay doi trang thai cu (dam bao strong exception safety).
-    RoomStats* nextRooms = nullptr;
-    if (roomCount > 0) {
-        nextRooms = new RoomStats[roomCount];
-        for (int i = 0; i < roomCount; ++i) {
-            nextRooms[i].roomId = i + 1;
-            nextRooms[i].maxWaiting = 0;
-        }
+    for (int i = 0; i < kPriorityCount; ++i) {
+        priority_[i] = PriorityStats{};
     }
 
     delete[] rooms_;
-    rooms_ = nextRooms;
-    roomCount_ = roomCount;
+    rooms_ = nullptr;
+    roomCount_ = 0;
 
-    for (int i = 0; i < kPriorityCount; ++i) {
-        priority_[i] = PriorityStats{};
+    if (roomCount > 0) {
+        roomCount_ = roomCount;
+        rooms_ = new RoomStats[roomCount_];
+        for (int i = 0; i < roomCount_; ++i) {
+            rooms_[i].roomId = i + 1;
+            rooms_[i].maxWaiting = 0;
+        }
     }
 
     maxSystemWaiting_ = 0;
@@ -142,45 +139,27 @@ const RoomStats& Statistics::byRoom(int roomIndex) const {
     return rooms_[roomIndex];
 }
 
+bool Statistics::averageWait(double& average) const {
+    long long totalWait = 0;
+    long long startedCount = 0;
+    for (int level = 0; level < kPriorityCount; ++level) {
+        totalWait += priority_[level].totalWait;
+        startedCount += priority_[level].startedCount;
+    }
+    if (startedCount == 0) {
+        average = 0.0;
+        return false;
+    }
+    average = static_cast<double>(totalWait) / static_cast<double>(startedCount);
+    return true;
+}
+
 int Statistics::maxSystemWaiting() const {
     return maxSystemWaiting_;
 }
 
 int Statistics::completedCount() const {
     return completedCount_;
-}
-
-int Statistics::totalStartedCount() const {
-    int total = 0;
-    for (int i = 0; i < kPriorityCount; ++i) {
-        total += priority_[i].startedCount;
-    }
-    return total;
-}
-
-long long Statistics::totalWaitingTime() const {
-    long long total = 0;
-    for (int i = 0; i < kPriorityCount; ++i) {
-        total += priority_[i].totalWait;
-    }
-    return total;
-}
-
-double Statistics::averageWait() const {
-    const int started = totalStartedCount();
-    if (started == 0) {
-        return 0.0;
-    }
-    return static_cast<double>(totalWaitingTime()) / started;
-}
-
-std::string Statistics::formatAverageWait() const {
-    if (totalStartedCount() == 0) {
-        return "Chua co du lieu";
-    }
-    std::ostringstream out;
-    out << averageWait();
-    return out.str();
 }
 
 const Patient** makeSortedWaitReport(const PatientStore& store, int& count) {
@@ -196,7 +175,7 @@ const Patient** makeSortedWaitReport(const PatientStore& store, int& count) {
         return nullptr;
     }
 
-    std::unique_ptr<const Patient*[]> report(new const Patient*[count]);
+    const Patient** report = new const Patient*[count];
     int pos = 0;
     for (const auto* node = store.head(); node != nullptr; node = node->next) {
         const Patient* p = extractPatient(node);
@@ -205,10 +184,11 @@ const Patient** makeSortedWaitReport(const PatientStore& store, int& count) {
         }
     }
 
-    std::unique_ptr<const Patient*[]> temp(new const Patient*[count]);
-    mergeSortPatients(report.get(), temp.get(), 0, count - 1);
+    const Patient** temp = new const Patient*[count];
+    mergeSortPatients(report, temp, 0, count - 1);
+    delete[] temp;
 
-    return report.release();
+    return report;
 }
 
 } // namespace clinic

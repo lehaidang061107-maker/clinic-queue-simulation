@@ -4,7 +4,6 @@
 #include "Statistics.h"
 
 #include <cassert>
-#include <cmath>
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -123,6 +122,8 @@ void checkStatistics() {
 
     assert(stats.byPriority(Priority::Emergency).startedCount == 0);
     assert(stats.completedCount() == 0);
+    double averageWait = -1.0;
+    assert(!stats.averageWait(averageWait) && averageWait == 0.0);
 
     // Khong ghi nhan benh nhan chua bat dau kham
     Patient notStarted = makePatient("WAIT", Priority::Normal, 0, 10, -1);
@@ -142,8 +143,17 @@ void checkStatistics() {
     assert(pref.totalWait == 12);
     assert(pref.maxWait == 8);
     assert(pref.totalWait / pref.startedCount == 6); // trung binh 6
+    assert(stats.averageWait(averageWait) && averageWait == 6.0);
     assert(stats.completedCount() == 2);
 
+    Statistics mixedStats;
+    mixedStats.reset(1);
+    Patient emergency = makePatient("EM", Priority::Emergency, 0, 3, 0);
+    Patient normal = makePatient("NO", Priority::Normal, 0, 4, 8);
+    mixedStats.recordStart(emergency);
+    mixedStats.recordStart(p1);
+    mixedStats.recordStart(normal);
+    assert(mixedStats.averageWait(averageWait) && averageWait == 4.0);
 
     // Snapshot (3,0) roi (0,4): max he thong = 4, khong cong cuc dai rieng (7)
     stats.observeQueues(0, 3, 3);
@@ -162,54 +172,9 @@ void checkStatistics() {
     assert(stats.byRoom(0).maxWaiting == 0);
     assert(stats.maxSystemWaiting() == 0);
     assert(stats.completedCount() == 0);
+    assert(!stats.averageWait(averageWait) && averageWait == 0.0);
 
     std::cout << "PASS Statistics priority aggregation, bounds check, queue peaks and reset\n";
-}
-
-void checkSystemAverageWait() {
-    Statistics stats;
-    stats.reset(1);
-
-    // 1. Bo khong co ai: khong chia cho 0, bao "Chua co du lieu"
-    assert(stats.totalStartedCount() == 0);
-    assert(stats.totalWaitingTime() == 0);
-    assert(stats.averageWait() == 0.0);
-    assert(stats.formatAverageWait() == "Chua co du lieu");
-
-    // 2. Bo 3 nguoi du 3 muc: wait = 0, 3, 9 -> tong = 12, TB chung = 4.0
-    Patient pNorm = makePatient("BN01", Priority::Normal, 0, 1, 0);       // wait = 0
-    Patient pEmer = makePatient("BN02", Priority::Emergency, 2, 3, 5);    // wait = 3
-    Patient pPref = makePatient("BN03", Priority::Preferential, 1, 2, 10);// wait = 9
-    stats.recordStart(pNorm);
-    stats.recordStart(pEmer);
-    stats.recordStart(pPref);
-
-    assert(stats.totalStartedCount() == 3);
-    assert(stats.totalWaitingTime() == 12);
-    assert(std::fabs(stats.averageWait() - 4.0) < 1e-9);
-    assert(stats.formatAverageWait() == "4");
-
-    // 3. Bo thieu mot muc (khong co Preferential): chi co Emergency (wait=2) va Normal (wait=5, wait=8)
-    stats.reset(1);
-    Patient e1 = makePatient("E1", Priority::Emergency, 0, 1, 2); // wait = 2
-    Patient n1 = makePatient("N1", Priority::Normal, 0, 2, 5);    // wait = 5
-    Patient n2 = makePatient("N2", Priority::Normal, 0, 3, 8);    // wait = 8
-    stats.recordStart(e1);
-    stats.recordStart(n1);
-    stats.recordStart(n2);
-
-    assert(stats.byPriority(Priority::Preferential).startedCount == 0);
-    assert(stats.totalStartedCount() == 3);
-    assert(stats.totalWaitingTime() == 15);
-    assert(std::fabs(stats.averageWait() - 5.0) < 1e-9);
-    assert(stats.formatAverageWait() == "5");
-
-    // Reset tro ve "Chua co du lieu"
-    stats.reset(1);
-    assert(stats.totalStartedCount() == 0);
-    assert(stats.formatAverageWait() == "Chua co du lieu");
-
-    std::cout << "PASS Statistics system average wait: empty, 3-patient, missing-level and reset\n";
 }
 
 void checkSortedWaitReport() {
@@ -251,7 +216,6 @@ void checkSortedWaitReport() {
 int main() {
     checkPriorityHeap();
     checkStatistics();
-    checkSystemAverageWait();
     checkSortedWaitReport();
     return 0;
 }

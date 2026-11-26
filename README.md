@@ -242,5 +242,5 @@ Phong 1 (Noi): cho thuong=1, cho uu tien=0, dang kham=BN01, ket thuc=5
 - Giai đoạn 2: [tổng quan](docs/04_Tong_quan_giai_doan_2.md), [phân công](docs/05_Phan_cong_giai_doan_2.md), bàn giao trong `docs/Giai Doan 2/`
 - Giai đoạn 3: [tổng quan](docs/06_Tong_quan_giai_doan_3.md), [phân công](docs/07_Phan_cong_giai_doan_3.md), bàn giao trong `docs/Giai Doan 3/`
 - Giai đoạn 4: [tổng quan](docs/08_Tong_quan_giai_doan_4.md), [phân công](docs/09_Phan_cong_giai_doan_4.md), bàn giao trong `docs/Giai Doan 4/`, [nháp Mô phỏng](docs/Giai%20Doan%204/G4_Leader_Mo_phong_nhap.md)
-- Giai đoạn 5: [tổng quan](docs/11_Tong_quan_giai_doan_5.md), [phân công](docs/12_Phan_cong_giai_doan_5.md), [việc tồn từ G4](docs/10_Viec_ton_giai_doan_5.md)
+- Giai đoạn 5: [tổng quan](docs/11_Tong_quan_giai_doan_5.md), [phân công](docs/12_Phan_cong_giai_doan_5.md)
 - [Quy trình Git cho thành viên](MEMBER_GIT_WORKFLOW.md)

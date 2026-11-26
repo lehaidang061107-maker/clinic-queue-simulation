@@ -57,4 +57,4 @@ Nếu được xác nhận thuộc nhóm B, báo cáo thêm chương Cơ sở l�
 
 **Thang điểm:** cấu trúc dữ liệu/giải thuật 30%; chức năng 20%; phân tích/thực nghiệm 15%; mã nguồn 10%; báo cáo 15%; thuyết trình/vấn đáp 10%.
 
-[Tổng quan giai đoạn 1](Lab/docs/02_Tong_quan_giai_doan_1.md) · [Phân công giai đoạn 1](Lab/docs/03_Phan_cong_giai_doan_1.md) · [Quy tắc chung](Lab/README.md#quy-tắc-chính)
+[Tổng quan giai đoạn 1](docs/02_Tong_quan_giai_doan_1.md) · [Phân công giai đoạn 1](docs/03_Phan_cong_giai_doan_1.md) · [Quy tắc chung](README.md#quy-tắc-chính)

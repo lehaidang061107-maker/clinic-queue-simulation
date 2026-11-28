@@ -129,7 +129,7 @@ Cho TB chung=4.07222 (733/180), Da hoan tat=180, cho he thong lon nhat=7 (P1=2, 
 - **Kiểm tra chéo Giai đoạn 3 với Thành viên A:** Đã chạy toàn bộ kịch bản `tests/console/a_*.in` của A trên Windows (MinGW-w64) và ghi nhận kết quả đạt vào `docs/Giai Doan 3/G3_A_Ban_giao.md`.
 - **Kiểm tra chéo Giai đoạn 4:**
   - B chạy các ca `tests/console/c_*.in` của Thành viên C trên Windows (MinGW-w64): cả `c_day_summary` và `c_compare_export` đều chạy khớp đầu ra mong đợi và xuất đúng định dạng tệp `results/comparison.txt`.
-  - A chạy kiểm tra chéo các ca `tests/console/b_*.in` của B: chờ Thành viên A chạy sau khi merge nhánh của B vào `develop` và cập nhật xác nhận tại mục này.
+  - A chạy kiểm tra chéo các ca `tests/console/b_*.in` của B: Đã chạy đạt trên Windows (MSYS2 UCRT64): b_empty_avg và b_format_example_2 đều khớp .expected.
 
 ## 5. Phần còn lại
 

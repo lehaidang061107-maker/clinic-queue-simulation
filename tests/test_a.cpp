@@ -10,6 +10,7 @@
 #include <cassert>
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace clinic;
 
@@ -97,6 +98,28 @@ void checkQueueClearKeepsPatients() {
     } // Destructor huy node, khong huy Patient.
     assert(p1.input.ticketNumber == 1 && p2.input.ticketNumber == 2);
     std::cout << "PASS LinkedQueue clear/destructor free nodes only, reuse after clear\n";
+}
+
+void checkQueueLargeScale() {
+    const int kCount = 100000;
+    std::vector<Patient> patients(kCount);
+    for (int i = 0; i < kCount; ++i) {
+        patients[i] = makePatient("BN" + std::to_string(i + 1), i + 1, i / 10);
+    }
+    LinkedQueue q;
+    for (int i = 0; i < kCount; ++i) {
+        q.enqueue(&patients[i]);
+    }
+    assert(q.size() == kCount && !q.isEmpty());
+    assert(q.peek() == &patients[0]);
+
+    for (int i = 0; i < kCount; ++i) {
+        Patient* out = q.dequeue();
+        assert(out == &patients[i]);
+        assert(out->input.ticketNumber == i + 1);
+    }
+    assert(q.isEmpty() && q.size() == 0 && q.dequeue() == nullptr);
+    std::cout << "PASS LinkedQueue large scale 100,000 items FIFO order\n";
 }
 
 #ifndef TEST_A_QUEUE_ONLY
@@ -263,6 +286,80 @@ void checkRoomNoPreemption() {
     std::cout << "PASS ClinicRoom non-preemption when emergency arrives\n";
 }
 
+void checkRoomLargeScale() {
+    const int kCount = 10000;
+    std::vector<Patient> patients(kCount);
+    // Phan bo xen ke ca 3 muc uu tien: Normal (2), Preferential (1), Emergency (0).
+    for (int i = 0; i < kCount; ++i) {
+        Priority prio = Priority::Normal;
+        if (i % 7 == 0) prio = Priority::Emergency;
+        else if (i % 3 == 0) prio = Priority::Preferential;
+        patients[i] = makePatient("BN" + std::to_string(i + 1), i + 1, i / 5, prio, 5);
+    }
+
+    // 1. Che do bat uu tien: muc 0 het -> muc 1 het -> muc 2 het; cung muc tang dan theo (arrival, ticket).
+    {
+        ClinicRoom roomOn;
+        roomOn.configure(1, 1);
+        for (int i = 0; i < kCount; ++i) {
+            resetPatientState(patients[i]);
+            patients[i].status = PatientStatus::Waiting;
+            roomOn.enqueue(&patients[i], true);
+        }
+        assert(roomOn.waitingCount() == kCount);
+
+        int prevPrio = -1;
+        int prevArrival = -1;
+        int prevTicket = -1;
+        int served = 0;
+        int minute = 0;
+        while (true) {
+            Patient* cur = roomOn.startNext(minute, true);
+            if (!cur) break;
+            const int curPrio = static_cast<int>(cur->input.priority);
+            if (curPrio != prevPrio) {
+                assert(curPrio > prevPrio);
+                prevPrio = curPrio;
+                prevArrival = -1;
+                prevTicket = -1;
+            }
+            assert(cur->input.arrivalTime > prevArrival ||
+                   (cur->input.arrivalTime == prevArrival && cur->input.ticketNumber > prevTicket));
+            prevArrival = cur->input.arrivalTime;
+            prevTicket = cur->input.ticketNumber;
+
+            minute += cur->input.serviceDuration;
+            assert(roomOn.finishIfDue(minute) == cur);
+            ++served;
+        }
+        assert(served == kCount && roomOn.waitingCount() == 0 && !roomOn.isBusy());
+    }
+
+    // 2. Che do tat uu tien: toan bo 10.000 nguoi ra dung thu tu FIFO ticket 1 -> 10.000.
+    {
+        ClinicRoom roomOff;
+        roomOff.configure(2, 1);
+        for (int i = 0; i < kCount; ++i) {
+            resetPatientState(patients[i]);
+            patients[i].status = PatientStatus::Waiting;
+            roomOff.enqueue(&patients[i], false);
+        }
+        assert(roomOff.waitingCount() == kCount && roomOff.priorityQueueSize() == 0);
+
+        int minute = 0;
+        for (int i = 0; i < kCount; ++i) {
+            Patient* cur = roomOff.startNext(minute, false);
+            assert(cur == &patients[i]);
+            assert(cur->input.ticketNumber == i + 1);
+            minute += cur->input.serviceDuration;
+            assert(roomOff.finishIfDue(minute) == cur);
+        }
+        assert(roomOff.waitingCount() == 0 && !roomOff.isBusy());
+    }
+
+    std::cout << "PASS ClinicRoom large scale 10,000 patients (priority on & off)\n";
+}
+
 #endif // TEST_A_QUEUE_ONLY
 
 } // namespace
@@ -272,6 +369,7 @@ int main() {
     checkQueueSingleAndRefill();
     checkQueueFifoOrder();
     checkQueueClearKeepsPatients();
+    checkQueueLargeScale();
 #ifndef TEST_A_QUEUE_ONLY
     checkRoomEmptyAndConfigure();
     checkRoomQueueSelection();
@@ -279,6 +377,7 @@ int main() {
     checkRoomReset();
     checkLeaderExample();
     checkRoomNoPreemption();
+    checkRoomLargeScale();
 #else
     std::cout << "SKIP ClinicRoom (TEST_A_QUEUE_ONLY: can PriorityHeap that)\n";
 #endif
